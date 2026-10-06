@@ -35,10 +35,12 @@ function bigNumber(text, cls = "big") {
     const k = Math.min(1, (t - t0) / dur);
     const v = target * (1 - Math.pow(1 - k, 3));
     el.textContent = m[1] + v.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec }) + m[4];
-    if (k < 1) requestAnimationFrame(tick);
+    if (k < 1 && el.textContent !== text) requestAnimationFrame(tick);
     else el.textContent = text;
   };
   requestAnimationFrame(tick);
+  // Backstop: frames pause in background tabs, so always land on the truth.
+  setTimeout(() => { el.textContent = text; }, dur + 150);
   return el;
 }
 
@@ -91,7 +93,8 @@ function bars(chart) {
     return fig;
   }
   const W = 320, H = 150, gap = 10, bw = (W - gap * (chart.bars.length - 1)) / chart.bars.length;
-  const svg = s("svg", { viewBox: `0 0 ${W} ${H + 22}`, class: "vbars" });
+  // 20px of headroom above the plot so the tallest bar's label clears the title
+  const svg = s("svg", { viewBox: `0 -20 ${W} ${H + 42}`, class: "vbars" });
   chart.bars.forEach((b, i) => {
     const x = i * (bw + gap);
     const bh = Math.max(3, (b.v / max) * H);
@@ -208,9 +211,11 @@ function card(sl) {
 
   if (sl.kind === "intro") {
     const t = h("h1", "title");
-    "KELSEY WRAPPED".split("").forEach((ch, i) => {
-      const sp = h("span", ch === " " ? "sp" : `ltr ltr-${i % 6}`, ch === " " ? " " : ch);
-      t.append(sp);
+    let i = 0;
+    ["KELSEY", "WRAPPED"].forEach((word) => {
+      const w = h("span", "word");
+      [...word].forEach((ch) => w.append(h("span", `ltr ltr-${i++ % 6}`, ch)));
+      t.append(w, " ");
     });
     box.append(t, h("p", "lede", sl.line), h("p", "foot", sl.foot));
     const go = h("button", "cta", "Start");

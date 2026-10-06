@@ -146,9 +146,10 @@ button { font: inherit; color: inherit; }
   font-weight: 700;
   line-height: 1.35;
   transform: rotate(var(--tilt, -2deg));
-  animation: slap 0.38s cubic-bezier(0.2, 1.5, 0.4, 1) both 0.25s;
+  /* no delay and no fill: if the animation never runs, the sticker is
+     simply there */
+  animation: slap 0.38s cubic-bezier(0.2, 1.5, 0.4, 1);
 }
-.sticker.slap { animation-delay: 0s; }
 @keyframes slap {
   from { transform: rotate(calc(var(--tilt, -2deg) * 3)) scale(1.25); opacity: 0; }
   to   { transform: rotate(var(--tilt, -2deg)) scale(1); opacity: 1; }
@@ -183,7 +184,7 @@ button { font: inherit; color: inherit; }
   margin: 0;
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(3.6rem, 17vw, 8.6rem);
+  font-size: clamp(2.8rem, 12.6vw, 7.6rem);
   line-height: 0.9;
   letter-spacing: -0.02em;
 }
@@ -194,7 +195,7 @@ button { font: inherit; color: inherit; }
 .title .ltr-3 { color: var(--green); }
 .title .ltr-4 { color: var(--blue); }
 .title .ltr-5 { color: var(--purple); }
-.title .sp { display: block; height: 0; }
+.title .word { display: inline-block; white-space: nowrap; }
 .lede { margin: 6px 0 0; max-width: 30ch; font-size: clamp(1.3rem, 4.6vw, 1.75rem); font-weight: 700; line-height: 1.2; }
 
 /* ---------- charts: marks take the card's text colour ---------- */
