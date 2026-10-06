@@ -1,4 +1,5 @@
 import { SLIDES, CHAPTERS, RECEIPT, ROASTS, MENUS } from "./slides.js";
+import { hueFor } from "./letters.js";
 
 const $ = (id) => document.getElementById(id);
 const stage = $("stage");
@@ -211,10 +212,11 @@ function card(sl) {
 
   if (sl.kind === "intro") {
     const t = h("h1", "title");
-    let i = 0;
+    // Fisher-Price magnet colours: the colour belongs to the letter, so
+    // both E's are the same blue. See letters.js.
     ["KELSEY", "WRAPPED"].forEach((word) => {
       const w = h("span", "word");
-      [...word].forEach((ch) => w.append(h("span", `ltr ltr-${i++ % 6}`, ch)));
+      [...word].forEach((ch) => w.append(h("span", `ltr ltr-${hueFor(ch)}`, ch)));
       t.append(w, " ");
     });
     box.append(t, h("p", "lede", sl.line), h("p", "foot", sl.foot));

@@ -190,12 +190,13 @@ button { font: inherit; color: inherit; }
   letter-spacing: -0.02em;
 }
 .title .ltr { display: inline-block; }
-.title .ltr-0 { color: var(--red); }
-.title .ltr-1 { color: var(--orange); }
-.title .ltr-2 { color: #E0B800; -webkit-text-stroke: 0.025em #7A5D00; paint-order: stroke fill; }
-.title .ltr-3 { color: var(--green); }
-.title .ltr-4 { color: var(--blue); }
-.title .ltr-5 { color: var(--purple); }
+/* Same hexes as the Special Interests title, so the letters match exactly. */
+.title .ltr-red    { color: #D22B1E; }
+.title .ltr-orange { color: #E5670B; }
+.title .ltr-yellow { color: #F2DD0D; -webkit-text-stroke: 0.022em #7A5D00; paint-order: stroke fill; }
+.title .ltr-green  { color: #2B8A3E; }
+.title .ltr-blue   { color: #1858C7; }
+.title .ltr-purple { color: #7A3FD9; }
 .title .word { display: inline-block; white-space: nowrap; }
 .lede { margin: 6px 0 0; max-width: 30ch; font-size: clamp(1.3rem, 4.6vw, 1.75rem); font-weight: 700; line-height: 1.2; }
 
