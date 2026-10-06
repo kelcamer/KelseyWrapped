@@ -2875,10 +2875,10 @@
    {
     "key": "beast",
     "label": "Beast mode",
-    "sessions": 19,
-    "avg_sets": 42,
-    "avg_volume": 14218,
-    "avg_rainbows": 6.5
+    "sessions": 17,
+    "avg_sets": 43.5,
+    "avg_volume": 14818,
+    "avg_rainbows": 6.8
    },
    {
     "key": "fumes",
@@ -2907,10 +2907,10 @@
    {
     "key": "okay",
     "label": "Fine, whatever",
-    "sessions": 2,
-    "avg_sets": 41,
-    "avg_volume": 16068,
-    "avg_rainbows": 6
+    "sessions": 4,
+    "avg_sets": 35.2,
+    "avg_volume": 12594,
+    "avg_rainbows": 4.8
    }
   ],
   "timeline": [
@@ -2965,7 +2965,7 @@
    },
    {
     "date": "2026-02-01",
-    "mood": "beast",
+    "mood": "okay",
     "sets": 22,
     "volume": 8520,
     "rainbows": 0
@@ -3070,7 +3070,7 @@
    },
    {
     "date": "2026-03-10",
-    "mood": "beast",
+    "mood": "okay",
     "sets": 37,
     "volume": 9720,
     "rainbows": 7
@@ -4061,9 +4061,9 @@
    {
     "key": "beast",
     "label": "Beast mode",
-    "n": 19,
-    "kcal": 2143.0,
-    "protein": 133.0
+    "n": 17,
+    "kcal": 2194.0,
+    "protein": 134.0
    },
    {
     "key": "fumes",
@@ -4089,9 +4089,9 @@
    {
     "key": "okay",
     "label": "Fine, whatever",
-    "n": 2,
-    "kcal": 1908.0,
-    "protein": 144.0
+    "n": 4,
+    "kcal": 1809.0,
+    "protein": 134.0
    }
   ]
  },
