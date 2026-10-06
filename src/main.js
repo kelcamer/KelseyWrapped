@@ -365,3 +365,4 @@ document.querySelector(".skip").addEventListener("click", (e) => {
 
 const fromHash = parseInt(location.hash.slice(1), 10);
 show(Number.isFinite(fromHash) ? fromHash - 1 : 0, false);
+requestAnimationFrame(() => document.body.classList.add("ready"));

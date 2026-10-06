@@ -45,8 +45,9 @@ body {
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  transition: background-color 0.35s ease;
 }
+/* colour change between cards only, never on first paint */
+body.ready { transition: background-color 0.35s ease; }
 
 button { font: inherit; color: inherit; }
 :focus-visible { outline: 3px solid var(--fg); outline-offset: 3px; border-radius: 6px; }
