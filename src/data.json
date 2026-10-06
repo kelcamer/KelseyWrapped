@@ -1,0 +1,4101 @@
+{
+ "generated": "2026-10-06",
+ "food": {
+  "days": 489,
+  "noted_days": 329,
+  "first": "2025-05-30",
+  "last": "2026-09-30",
+  "protein_total_g": 61755,
+  "protein_avg_g": 127.1,
+  "kcal_avg": 1978.0,
+  "active_total": 296337,
+  "active_missing_days": 38,
+  "net_avg": -289.0,
+  "deficit_days": 358,
+  "protein_100_days": 459,
+  "highest_kcal": {
+   "date": "2026-08-01",
+   "kcal": 3060.0,
+   "dow": "Saturday"
+  },
+  "lowest_kcal": {
+   "date": "2025-06-06",
+   "kcal": 1135.0,
+   "dow": "Friday"
+  },
+  "highest_protein": {
+   "date": "2025-10-26",
+   "g": 170.5,
+   "dow": "Sunday"
+  },
+  "counts": {
+   "protein shake": 234,
+   "eggs": 189,
+   "bagel": 85,
+   "cream cheese": 97,
+   "coffee": 216,
+   "green tea": 89,
+   "arugula": 64,
+   "banana": 42,
+   "Werther's": 31,
+   "macaron": 45,
+   "pizza": 29,
+   "HelloFresh": 87,
+   "flax": 46,
+   "tacos": 26,
+   "bacon": 32,
+   "blueberries": 22,
+   "ranch": 28,
+   "Starbucks": 29,
+   "Costco chicken": 9,
+   "licorice": 11,
+   "maple anything": 91,
+   "ice cream": 8,
+   "sushi": 14
+  },
+  "streaks": {
+   "protein shake": {
+    "days": 20,
+    "from": "2026-07-26",
+    "to": "2026-08-14"
+   },
+   "eggs": {
+    "days": 8,
+    "from": "2026-05-28",
+    "to": "2026-06-04"
+   },
+   "coffee": {
+    "days": 29,
+    "from": "2026-08-16",
+    "to": "2026-09-13"
+   },
+   "bagel": {
+    "days": 5,
+    "from": "2026-03-14",
+    "to": "2026-03-18"
+   }
+  },
+  "usual_breakfast_days": 36,
+  "by_dow": [
+   {
+    "dow": "Monday",
+    "kcal": 1951.0,
+    "protein": 128.7,
+    "active": 651.0
+   },
+   {
+    "dow": "Tuesday",
+    "kcal": 2000.0,
+    "protein": 130.4,
+    "active": 773.0
+   },
+   {
+    "dow": "Wednesday",
+    "kcal": 1947.0,
+    "protein": 130.5,
+    "active": 621.0
+   },
+   {
+    "dow": "Thursday",
+    "kcal": 1960.0,
+    "protein": 128.3,
+    "active": 755.0
+   },
+   {
+    "dow": "Friday",
+    "kcal": 2029.0,
+    "protein": 124.2,
+    "active": 536.0
+   },
+   {
+    "dow": "Saturday",
+    "kcal": 2000.0,
+    "protein": 120.3,
+    "active": 505.0
+   },
+   {
+    "dow": "Sunday",
+    "kcal": 1961.0,
+    "protein": 127.1,
+    "active": 738.0
+   }
+  ],
+  "by_month": [
+   {
+    "month": "2025-05",
+    "kcal": 1882.0,
+    "protein": 109.2,
+    "net": -384.0,
+    "n": 2
+   },
+   {
+    "month": "2025-06",
+    "kcal": 1765.0,
+    "protein": 119.3,
+    "net": -512.0,
+    "n": 30
+   },
+   {
+    "month": "2025-07",
+    "kcal": 1873.0,
+    "protein": 125.1,
+    "net": -483.0,
+    "n": 31
+   },
+   {
+    "month": "2025-08",
+    "kcal": 1903.0,
+    "protein": 136.4,
+    "net": -520.0,
+    "n": 31
+   },
+   {
+    "month": "2025-09",
+    "kcal": 1883.0,
+    "protein": 132.1,
+    "net": -487.0,
+    "n": 30
+   },
+   {
+    "month": "2025-10",
+    "kcal": 1940.0,
+    "protein": 138.8,
+    "net": -398.0,
+    "n": 31
+   },
+   {
+    "month": "2025-11",
+    "kcal": 1829.0,
+    "protein": 133.4,
+    "net": -430.0,
+    "n": 30
+   },
+   {
+    "month": "2025-12",
+    "kcal": 1866.0,
+    "protein": 123.2,
+    "net": -379.0,
+    "n": 31
+   },
+   {
+    "month": "2026-01",
+    "kcal": 1875.0,
+    "protein": 113.1,
+    "net": -81.0,
+    "n": 31
+   },
+   {
+    "month": "2026-02",
+    "kcal": 2007.0,
+    "protein": 131.5,
+    "net": -32.0,
+    "n": 28
+   },
+   {
+    "month": "2026-03",
+    "kcal": 2012.0,
+    "protein": 134.2,
+    "net": -204.0,
+    "n": 31
+   },
+   {
+    "month": "2026-04",
+    "kcal": 2029.0,
+    "protein": 136.2,
+    "net": -247.0,
+    "n": 30
+   },
+   {
+    "month": "2026-05",
+    "kcal": 2161.0,
+    "protein": 128.7,
+    "net": -145.0,
+    "n": 31
+   },
+   {
+    "month": "2026-06",
+    "kcal": 2212.0,
+    "protein": 128.9,
+    "net": -113.0,
+    "n": 30
+   },
+   {
+    "month": "2026-07",
+    "kcal": 2079.0,
+    "protein": 118.2,
+    "net": -200.0,
+    "n": 31
+   },
+   {
+    "month": "2026-08",
+    "kcal": 2087.0,
+    "protein": 125.4,
+    "net": -240.0,
+    "n": 31
+   },
+   {
+    "month": "2026-09",
+    "kcal": 2143.0,
+    "protein": 110.8,
+    "net": -106.0,
+    "n": 30
+   }
+  ],
+  "menus": [
+   {
+    "date": "2025-11-01",
+    "dow": "Saturday",
+    "kcal": 1902.0,
+    "protein": 140.0,
+    "note": "Breakfast: Protein shake (3 whey scoops + almond milk + cocoa) 477 cal 80g protein | Juice: Apple ginger 100 cal | Lunch: 3 slices pizza with friends 900 cal 30g protein | Late evening: Scoop whey + flax 325 cal 30g protein | Heavy lifting day: rear delts + pull-ups + hip work + biceps + side delts"
+   },
+   {
+    "date": "2025-11-02",
+    "dow": "Sunday",
+    "kcal": 1885.0,
+    "protein": 120.0,
+    "note": "Breakfast: Einstein Bros sandwich + protein shake + coffee with syrup | Lunch: mango sweet tea | Dinner: ZAAP Pad Kee Mao | Essentially maintenance - 80 cal under target"
+   },
+   {
+    "date": "2025-11-03",
+    "dow": "Monday",
+    "kcal": 1845.0,
+    "protein": 150.0,
+    "note": "Breakfast: 2 eggs + 1/2 bagel + cream cheese | Lunch: shake + arugula | Dinner: HelloFresh moo shoo pork | Extra: 1 scoop whey + 2 tbsp flax"
+   },
+   {
+    "date": "2025-11-04",
+    "dow": "Tuesday",
+    "kcal": 2050.0,
+    "protein": 135.0,
+    "note": "Breakfast: 2 eggs + 1/2 English muffin + cream cheese | Lunch: arugula + shake + blueberries | Snack: baklava | Dinner: HelloFresh burrito (minus rotten tomato)"
+   },
+   {
+    "date": "2025-11-05",
+    "dow": "Wednesday",
+    "kcal": 1850.0,
+    "protein": 164.0,
+    "note": "Breakfast: 2 eggs + 1/2 English muffin + cream cheese | Lunch: arugula + shake | Snack: 30% mango jasmine tea | Dinner: my usual sushi (2 riceless rolls) / crab cream cheese rolls"
+   },
+   {
+    "date": "2025-11-06",
+    "dow": "Thursday",
+    "kcal": 1685.0,
+    "protein": 128.0,
+    "note": "Breakfast: 2 eggs + English muffin + cream cheese | Lunch: protein shake + blueberries | Dinner: HelloFresh tofu veggie meal | Snacks: green tea + peach gummies + 1 tbsp PB | Rest day after pull workout"
+   },
+   {
+    "date": "2025-11-07",
+    "dow": "Friday",
+    "kcal": 1790.0,
+    "protein": 131.0,
+    "note": "Breakfast: 2 eggs, 1/2 English muffin, strawberry cream cheese, 1 protein shake (500 cal 85g protein), 1 Starbucks vanilla cream cold brew (110 cal), saucy pork burrito bowl Hello Fresh (790 cal 29g protein), 1/2 pumpkin Starbucks bread (200 cal), 1/2 leftover ginger apple juice (50 cal) | Total: ~1,790 cal, ~131g protein | Watch burn: 900 cal | Net: ~890 cal | Deficit: ~660 cal"
+   },
+   {
+    "date": "2025-11-08",
+    "dow": "Saturday",
+    "kcal": 2178.0,
+    "protein": 122.0,
+    "note": "Breakfast: 825 cal | Lunch: 500 cal shake | Dinner: 2/3 tacos 633 cal | Dessert: 220 cal (4 Oreos)"
+   },
+   {
+    "date": "2025-11-09",
+    "dow": "Sunday",
+    "kcal": 1390.0,
+    "protein": 111.0,
+    "note": "Breakfast: shake 500 cal 85g protein | Lunch: spooky spice coffee 100 cal + pie pocket 200 cal | Dinner: HelloFresh moo shoo pork 790 cal 26g protein | Workout day"
+   },
+   {
+    "date": "2025-11-10",
+    "dow": "Monday",
+    "kcal": 1585.0,
+    "protein": 127.0,
+    "note": "Breakfast: 2 eggs + 1/2 bagel + cream cheese + coffee + maple syrup | Lunch: SKIPPED | Snack: mango jasmine tea | Dinner: ZAAP pad see ew | Evening: shake (3 scoops whey + almond milk)"
+   },
+   {
+    "date": "2025-11-11",
+    "dow": "Tuesday",
+    "kcal": 1937.0,
+    "protein": 158.0,
+    "note": "Breakfast: 2 eggs + 1/2 bagel + cream cheese + juice (apple + ginger) | Lunch: arugula + shake + blueberries | Snack: mango jasmine tea | Dinner: taco + 10 potstickers + chili sauce | Evening: scoop whey + flax"
+   },
+   {
+    "date": "2025-11-13",
+    "dow": "Thursday",
+    "kcal": 1758.0,
+    "protein": 157.0,
+    "note": "Yogurt, coffee, giant bitter arugula plate, 500-cal protein shake, mango green tea, flax seed in water, Mera Mera roll, Fuji-San roll, 2 crab cream cheese rolls with half sauce"
+   },
+   {
+    "date": "2025-11-14",
+    "dow": "Friday",
+    "kcal": 1708.0,
+    "protein": 140.0,
+    "note": "Cinnamon toast with cream cheese + 2 eggs, protein shake with blueberries, green tea, Hello Fresh green bean snap pea chicken rice bowl, flax in water, and a Reese's."
+   },
+   {
+    "date": "2025-11-15",
+    "dow": "Saturday",
+    "kcal": 1674.0,
+    "protein": 126.0,
+    "note": "Breakfast: Brunch Eon ham cheese crepes + eggs + bacon + fruit (875 cal, 28g protein) | Mango green tea | Protein shake | 3 Reese's | Rest day with DOMS from Thursday workout"
+   },
+   {
+    "date": "2025-11-16",
+    "dow": "Sunday",
+    "kcal": 2010.0,
+    "protein": 141.0,
+    "note": "Breakfast: La La Land avocado toast + eggs + chai latte (1240-1290 cal, 100-110g protein) | Protein shake | Dinner: HelloFresh bulgogi chicken rice 670 cal"
+   },
+   {
+    "date": "2025-11-17",
+    "dow": "Monday",
+    "kcal": 2030.0,
+    "protein": null,
+    "note": "Breakfast: eggs + cinnamon toast + cream cheese + coffee | Lunch: arugula + blueberries + protein shake | Mango tea | Dinner: 980-1000 cal | Sore, no workout"
+   },
+   {
+    "date": "2025-11-18",
+    "dow": "Tuesday",
+    "kcal": 2065.0,
+    "protein": 144.0,
+    "note": "Breakfast: 2 eggs + cinnamon toast + cream cheese + coffee + maple syrup | Lunch: shake + arugula + blueberries | Snack: 30% mango jasmine tea | Dinner: Yoko sushi (Mera Mera + Magoro + 2 crab cream cheese rolls)"
+   },
+   {
+    "date": "2025-11-19",
+    "dow": "Wednesday",
+    "kcal": 1960.0,
+    "protein": 135.0,
+    "note": "Breakfast: 2 eggs + cinnamon toast + cream cheese + coffee | Lunch: shake with banana + blueberries + arugula | Dinner: 1000 cal burrito | Snack: 110 cal Oreos | Sore AF workout recovery day"
+   },
+   {
+    "date": "2025-11-20",
+    "dow": "Thursday",
+    "kcal": 1798.0,
+    "protein": 69.0,
+    "note": "Breakfast: La La Land avocado toast + chai latte with espresso | Lunch: shake with banana minus cocoa plus flax | Dinner: HelloFresh coconut curry rice | Snack: 1 Reese's"
+   },
+   {
+    "date": "2025-11-21",
+    "dow": "Friday",
+    "kcal": 1630.0,
+    "protein": null,
+    "note": "Breakfast: 2 eggs + cinnamon toast + strawberry cream cheese | Lunch: pulled beef slider + side salad with ranch | Dinner: HelloFresh fajita shrimp tacos + 0.5 whey shake (couldn't finish, body signaled fullness) | Rest day with muscle soreness from workout, fiber intake continues to be a challenge"
+   },
+   {
+    "date": "2025-11-22",
+    "dow": "Saturday",
+    "kcal": 1988.0,
+    "protein": 117.0,
+    "note": "Breakfast: Shugs bagel sandwich (2 eggs + bacon + cheese + cream cheese + avocado) + granola bar | Snack: 2 whey scoops + almond milk + mango jasmine tea | Dinner: HelloFresh Moo Shu Pork Bowl | Post-ictal recovery day"
+   },
+   {
+    "date": "2025-11-24",
+    "dow": "Monday",
+    "kcal": 2157.0,
+    "protein": 141.0,
+    "note": "Breakfast: La La Land avocado toast + chai tea + shake | Dinner: Yoko Sushi (2 crab cream cheese + Mera Mera + asparagus roll) | Post-focal seizure recovery - 250 surplus appropriate"
+   },
+   {
+    "date": "2025-11-25",
+    "dow": "Tuesday",
+    "kcal": 1640.0,
+    "protein": 142.0,
+    "note": "Morning protein shake | Coffee with cream | Dinner: HelloFresh peanut pork noodle stir fry | Evening: protein shake + 4 tbsp flax + almond milk | Intense workout - felt 'wired' not depleted, 16 days off CBD"
+   },
+   {
+    "date": "2025-11-26",
+    "dow": "Wednesday",
+    "kcal": 1750.0,
+    "protein": 119.0,
+    "note": "Breakfast: Protein shake 500 cal | Dinner: Burger (bottom bun + cheese + fried egg) + sweet potato fries + marshmallow sauce + side salad | Snack: 2 Reese's | EEG appointment day"
+   },
+   {
+    "date": "2025-11-28",
+    "dow": "Friday",
+    "kcal": 1970.0,
+    "protein": 129.0,
+    "note": "Breakfast: 2 eggs + toast + cream cheese + Starbucks cold brew | Lunch: shake with flax | Snacks: sesame ball + 1 Reese's | Dinner: HelloFresh coconut curry bowl | Essentially maintenance"
+   },
+   {
+    "date": "2025-11-29",
+    "dow": "Saturday",
+    "kcal": 1510.0,
+    "protein": 123.0,
+    "note": "Breakfast: Large Shugs bagel (2 eggs + bacon + cheese + avocado + cream cheese) + iced cold brew + green tea | Dinner: Protein shake (75g whey + banana + 4 tbsp flax + PB + cocoa + almond milk) | LARGE DEFICIT"
+   },
+   {
+    "date": "2025-12-01",
+    "dow": "Monday",
+    "kcal": 1400.0,
+    "protein": 85.0,
+    "note": "HelloFresh dumplings, sesame ball"
+   },
+   {
+    "date": "2025-12-02",
+    "dow": "Tuesday",
+    "kcal": 2010.0,
+    "protein": 146.0,
+    "note": "Usual breakfast, shake, Yoko sushi (mera mera, maguro, 2 crab CC)"
+   },
+   {
+    "date": "2025-12-03",
+    "dow": "Wednesday",
+    "kcal": 1780.0,
+    "protein": 153.0,
+    "note": "Usual work breakfast, shake+arugula+dressing, 810cal dinner, pumpkin cookie"
+   },
+   {
+    "date": "2025-12-05",
+    "dow": "Friday",
+    "kcal": 2200.0,
+    "protein": 95.0,
+    "note": "Usual breakfast/coffee, shake, Zalat OG pizza 50% + pineapple + blue cheese"
+   },
+   {
+    "date": "2025-12-06",
+    "dow": "Saturday",
+    "kcal": 1600.0,
+    "protein": 118.0,
+    "note": "Shake (472 cal/80g), estimated day"
+   },
+   {
+    "date": "2025-12-07",
+    "dow": "Sunday",
+    "kcal": 1437.0,
+    "protein": 118.0,
+    "note": "2 eggs, coffee+syrup, shake 472cal/80g, Gambian peanut stew no rice 700cal/26g"
+   },
+   {
+    "date": "2025-12-08",
+    "dow": "Monday",
+    "kcal": 2073.0,
+    "protein": 120.0,
+    "note": "Breakfast: 2 eggs, toast with strawberry cream cheese. Lunch: protein shake (485 cal, 87g protein), giant arugula bowl with 15 cal dressing. Snack: 50% sweet mango jasmine tea. Dinner: 3 slices leftover Zalat pizza + 3 sauces. EOD: Reese's (243 cal). Basically maintenance despite pizza!"
+   },
+   {
+    "date": "2025-12-09",
+    "dow": "Tuesday",
+    "kcal": 1750.0,
+    "protein": 102.0,
+    "note": "Pizza slice, HelloFresh, ranch, potato soup at friend's"
+   },
+   {
+    "date": "2025-12-10",
+    "dow": "Wednesday",
+    "kcal": 1410.0,
+    "protein": 77.0,
+    "note": "Starbucks egg bites, mocha latte, shake 430cal/75g, arugula, potato soup"
+   },
+   {
+    "date": "2025-12-11",
+    "dow": "Thursday",
+    "kcal": 1840.0,
+    "protein": 123.0,
+    "note": "2 eggs, sunflower bread, cream cheese, shake 3scoop+4tbsp flax+PB, HF corn pork bowl 1040cal"
+   },
+   {
+    "date": "2025-12-12",
+    "dow": "Friday",
+    "kcal": 1942.0,
+    "protein": 125.0,
+    "note": "Breakfast was two eggs, two small pieces of sunflower bread with a reasonable amount of strawberry cream cheese on both dinner hellofresh\nCoffee with light cream as usual, and coworker gave me one small chocolate candy from Iraq, I have literally no idea how many calories it is but it tasted slightly sweet so I guess log it at 55 Kel\nLunch was a protein shake, my usual with the four ingredients that you have in your notes, it had three scoops of way 1 tablespoon of peanut butter and 4 tablespoons of flexes with 1.5 cups of almond milk, so use that in your calculations\nI also had a gigantic paper plate as usual of a regular with 20 cal of dressing and one kiwi\nAnd I am now on my way to go get a 50% mango jasmine tea, I guess log this at 70 cal"
+   },
+   {
+    "date": "2025-12-13",
+    "dow": "Saturday",
+    "kcal": 1940.0,
+    "protein": 123.0,
+    "note": "Einstein farmhouse 770cal/46g, chocolate cold brew, shake 540cal/75g"
+   },
+   {
+    "date": "2025-12-14",
+    "dow": "Sunday",
+    "kcal": 2155.0,
+    "protein": 152.0,
+    "note": "Cream cheese scramble+French toast 750cal, Starbucks, mango tea, shake, Yoko 1.5 rolls+2 crab CC"
+   },
+   {
+    "date": "2025-12-15",
+    "dow": "Monday",
+    "kcal": 1700.0,
+    "protein": 133.0,
+    "note": "December 15, 2025 food log\nBreakfast:\n2 eggs, one small sunflower toast with light strawberry cream cheese\nCoffee light cream as usual\nLunch:\n1 protein shake\n0.5 of a sushi roll (check prev convo about maguro roll)\n1 kiwi \nSnack:\n60 calorie mango green tea\nDinner:\n680 calories of German salad & sandwich BUT subtract 1/2 the bun (didn't want it)"
+   },
+   {
+    "date": "2025-12-16",
+    "dow": "Tuesday",
+    "kcal": 1852.0,
+    "protein": 142.0,
+    "note": "2 eggs, sunflower toast, strawberry CC, coffee, shake, banana, kiwi, mango tea, gyro+hummus"
+   },
+   {
+    "date": "2025-12-17",
+    "dow": "Wednesday",
+    "kcal": 2300.0,
+    "protein": 162.0,
+    "note": "Usual breakfast, shake, kiwi, Velvet Taco buffalo chicken+hamburger+80% queso+6 chips"
+   },
+   {
+    "date": "2025-12-18",
+    "dow": "Thursday",
+    "kcal": 2000.0,
+    "protein": 140.0,
+    "note": "Massive leg day workout (no food log)"
+   },
+   {
+    "date": "2025-12-19",
+    "dow": "Friday",
+    "kcal": 2070.0,
+    "protein": 138.0,
+    "note": "Starbucks mocha+egg bites, shake, cookie, HF pork corn esquite 1030cal, DOMS day"
+   },
+   {
+    "date": "2025-12-21",
+    "dow": "Sunday",
+    "kcal": 1710.0,
+    "protein": 142.0,
+    "note": "2 eggs, cold brew, half maguro roll, shake 130cal, flax, bison burger 950cal, shake"
+   },
+   {
+    "date": "2025-12-22",
+    "dow": "Monday",
+    "kcal": 2065.0,
+    "protein": 127.0,
+    "note": "Yoko sushi: mera mera, maguro, 2 crab CC rolls"
+   },
+   {
+    "date": "2025-12-23",
+    "dow": "Tuesday",
+    "kcal": 2090.0,
+    "protein": 115.0,
+    "note": "Austin vacation, Crepe Crazy, Vigilante Gastropub"
+   },
+   {
+    "date": "2025-12-24",
+    "dow": "Wednesday",
+    "kcal": 2143.0,
+    "protein": 107.0,
+    "note": "Christmas Eve: Crepe Crazy 70%, half PB crepe, maple latte, jerky, cookie, Chinese, grandma cookies"
+   },
+   {
+    "date": "2025-12-25",
+    "dow": "Thursday",
+    "kcal": 2235.0,
+    "protein": 107.0,
+    "note": "Christmas: frittata, chocolate French toast, deviled eggs, cookie, Starbucks, steak dinner"
+   },
+   {
+    "date": "2025-12-26",
+    "dow": "Friday",
+    "kcal": 1270.0,
+    "protein": 105.0,
+    "note": "Road trip: half sweet crepe, savory crepe, dirty chai, shake"
+   },
+   {
+    "date": "2025-12-28",
+    "dow": "Sunday",
+    "kcal": 2060.0,
+    "protein": 142.0,
+    "note": "La La Land avocado toast, chai, shake, mango tea, spinach salad, 50% crab salmon, cake"
+   },
+   {
+    "date": "2025-12-29",
+    "dow": "Monday",
+    "kcal": 1673.0,
+    "protein": 119.0,
+    "note": "2 eggs, coffee+honey, Orgain shake 538cal/50g, mahi sandwich, toffee"
+   },
+   {
+    "date": "2025-12-30",
+    "dow": "Tuesday",
+    "kcal": 2400.0,
+    "protein": 100.0,
+    "note": "Holiday feast: bacon, toast, eggs, pastrami rolls, chicken salad, pasta dinner, desserts"
+   },
+   {
+    "date": "2025-12-31",
+    "dow": "Wednesday",
+    "kcal": 1990.0,
+    "protein": 115.0,
+    "note": "2 eggs, coffee+honey, chicken salad, yogurt, Coke, hush puppy, piccata, crab salmon"
+   },
+   {
+    "date": "2026-01-01",
+    "dow": "Thursday",
+    "kcal": 1535.0,
+    "protein": 100.0,
+    "note": "Half blueberry scone, bacon, eggs, Coke, hush puppy, chicken piccata, chicken salad"
+   },
+   {
+    "date": "2026-01-02",
+    "dow": "Friday",
+    "kcal": 1245.0,
+    "protein": 79.0,
+    "note": "2 eggs, coffee, Costco shake (4 scoops), Amura sushi (split 5 rolls 3 ways)"
+   },
+   {
+    "date": "2026-01-03",
+    "dow": "Saturday",
+    "kcal": 1850.0,
+    "protein": 115.0,
+    "note": "2 eggs, coffee, 3 sesame balls, shake, turkey/ham sub (11\"), 1-scoop shake, mango tea w/ boba"
+   },
+   {
+    "date": "2026-01-04",
+    "dow": "Sunday",
+    "kcal": 1850.0,
+    "protein": 115.0,
+    "note": "Family processing day (estimated)"
+   },
+   {
+    "date": "2026-01-05",
+    "dow": "Monday",
+    "kcal": 1950.0,
+    "protein": 121.0,
+    "note": "2 eggs, coffee, shake, apple, mango tea"
+   },
+   {
+    "date": "2026-01-06",
+    "dow": "Tuesday",
+    "kcal": 1880.0,
+    "protein": 136.0,
+    "note": "Shake, eggs, tacos (standard routine day)"
+   },
+   {
+    "date": "2026-01-13",
+    "dow": "Tuesday",
+    "kcal": 1957.0,
+    "protein": 135.0,
+    "note": "Breakfast: 2 eggs + toast + cream cheese + coffee (~360c). Lunch: 3-scoop shake w/ flax + almond milk + kiwi + spinach (~667c). Dinner: HelloFresh beef bowl (~930c). Maintenance / rest day."
+   },
+   {
+    "date": "2026-01-15",
+    "dow": "Thursday",
+    "kcal": 2405.0,
+    "protein": 115.0,
+    "note": "Travel day to Seattle. Breakfast: Dunkin avocado toast, egg, donut, coffee (~790c). Lunch: grazing - salami/veggies/nuts (~330c). Dinner 1: chicken piccata + pasta (~770c). Dinner 2: H-Mart tuna poke + egg roll + sesame balls (~505c)."
+   },
+   {
+    "date": "2026-01-16",
+    "dow": "Friday",
+    "kcal": 2390.0,
+    "protein": 114.0,
+    "note": "Vacation. Breakfast: Le Panier pastries + Starbucks (~870c). Snack: Darigold protein shake (~160c). Lunch: New England clam chowder + bread (~520c). Dinner: 2 tuna tostadas + thin potatoes/mayo (~640c). Drink: Shirley Temple (~200c)."
+   },
+   {
+    "date": "2026-01-27",
+    "dow": "Tuesday",
+    "kcal": 1680.0,
+    "protein": 111.0,
+    "note": "Return to gym. Breakfast: 2 eggs + 1/2 bagel w/ cream cheese (~320c). Lunch: whey shake (50g) + almond milk + PB (~360c). Dinner: gyro sandwich (~600c/30g) + 1/2 hummus (~200c) + 1/2 Greek salad (~200c). Large deficit (~-500+)."
+   },
+   {
+    "date": "2026-02-01",
+    "dow": "Sunday",
+    "kcal": 1697.0,
+    "protein": 114.0,
+    "note": "Breakfast: The Usual. Lunch: Tactical Nuke shake. Dinner: banh mi + taco meal (~860c/32g). +25c candy. Steep deficit mentioned."
+   },
+   {
+    "date": "2026-02-03",
+    "dow": "Tuesday",
+    "kcal": 2115.0,
+    "protein": 147.0,
+    "note": "Back-day workout documented but macros not captured in extracted data"
+   },
+   {
+    "date": "2026-02-04",
+    "dow": "Wednesday",
+    "kcal": 1825.0,
+    "protein": 142.0,
+    "note": "Breakfast: The Usual - eggs, bagel, CC, coffee (360c/19g). Lunch: Tactical Nuke shake - 3 scoops + PB + banana (555c/83g). Dinner: Velvet Taco combo - buffalo taco + 70% rotisserie + queso/chips (~910c/40g). Maintenance day."
+   },
+   {
+    "date": "2026-02-05",
+    "dow": "Thursday",
+    "kcal": 2165.0,
+    "protein": 143.0,
+    "note": "Back tweak day - mild surplus authorized for recovery. Sandwich + chicken-based meal. ~1,000c dinner. Total output 1,895 (0.55 rule). Inflammatory support."
+   },
+   {
+    "date": "2026-02-06",
+    "dow": "Friday",
+    "kcal": 2300.0,
+    "protein": 140.0,
+    "note": "Breakfast: Starbucks red pepper egg bites + half-sweet vanilla iced coffee. Lunch: Lito Kitchen Italian sandwich + hummus. Recomp strategy day. Surplus of ~+162."
+   },
+   {
+    "date": "2026-02-10",
+    "dow": "Tuesday",
+    "kcal": 2015.0,
+    "protein": 147.0,
+    "note": "The Werther's Rebellion. 439 watch burn post dog-walk. Perfect maintenance."
+   },
+   {
+    "date": "2026-02-11",
+    "dow": "Wednesday",
+    "kcal": 1970.0,
+    "protein": 139.0,
+    "note": "High Output Gyro day. Breakfast/lunch ~905c/93g. Dinner: Santorini gyro (~950c/45g) + apple juice (35c) + fun-size Snickers (80c). Gym + high-output day."
+   },
+   {
+    "date": "2026-02-12",
+    "dow": "Thursday",
+    "kcal": 1590.0,
+    "protein": 132.0,
+    "note": "Viral Trend Protocol. Breakfast (viral): ~340c/13g. Lunch Tactical Nuke (~585c/80g). Dinner: HelloFresh ginger chicken (570c/38g). Tea + 35c chocolate milk added late."
+   },
+   {
+    "date": "2026-02-13",
+    "dow": "Friday",
+    "kcal": 2225.0,
+    "protein": 107.0,
+    "note": "Luxury Protocol. Breakfast: Preston's sandwich + biscoff cookie latte (~1,150c/38g). Lunch: correction shake (275c/51g). Dinner: coconut curry (~800c/18g). Post-blood-draw recovery day."
+   },
+   {
+    "date": "2026-02-14",
+    "dow": "Saturday",
+    "kcal": 2060.0,
+    "protein": 102.0,
+    "note": "Valentine's Day. Brunch: hollandaise & eggs (650c/22g). Snack: The Strawberry Mistake (450c/3g). Afternoon: lean whey (240c/50g). Dinner: HelloFresh tofu bowl (720c/27g). Slight surplus authorized."
+   },
+   {
+    "date": "2026-02-15",
+    "dow": "Sunday",
+    "kcal": 1820.0,
+    "protein": 127.0,
+    "note": "Gig day pivot. Breakfast: bagel + eggs + CC + maple coffee (445c/19g). Lunch: 3-scoop shake w/ PB + banana + almond milk (515c/81g). Dinner: HelloFresh tofu bowl (720c/27g). Dessert: 1 chocolate strawberry (140c)."
+   },
+   {
+    "date": "2026-02-17",
+    "dow": "Tuesday",
+    "kcal": 2300.0,
+    "protein": 138.0,
+    "note": "Buffalo chicken pizza day. 2 ranch cups (pure lipid fuel). Slight surplus. Muscle repair funded."
+   },
+   {
+    "date": "2026-02-18",
+    "dow": "Wednesday",
+    "kcal": 1970.0,
+    "protein": 146.0,
+    "note": "Breakfast + half-shake type day. Dinner: 780c/51g. Snack: 1 strawberry (150c). Large deficit."
+   },
+   {
+    "date": "2026-02-19",
+    "dow": "Thursday",
+    "kcal": 2270.0,
+    "protein": 136.0,
+    "note": "Breakfast + half-shake + dinner same as previous (780c/51g). Strawberry snack (150c) late. Slight surplus."
+   },
+   {
+    "date": "2026-02-20",
+    "dow": "Friday",
+    "kcal": 1980.0,
+    "protein": 97.0,
+    "note": "Birthday Eve. Breakfast, coffee, half-shake, pizza slice, arugula w/ ranch (~1,000c/66g midday). Dinner: HelloFresh Banh Mi meatballs (980c/31g)."
+   },
+   {
+    "date": "2026-02-21",
+    "dow": "Saturday",
+    "kcal": 2325.0,
+    "protein": 125.0,
+    "note": "Shug's bagel (substantial), tea, protein shake, pasta dinner, 1 Werther's. Watch active 837 pre-walk."
+   },
+   {
+    "date": "2026-02-22",
+    "dow": "Sunday",
+    "kcal": 2265.0,
+    "protein": 150.0,
+    "note": "You literally had a 900-calorie bagel sandwich with bacon, egg, cheese, and avocado for breakfast, an 800-calorie HelloFresh pasta bowl for dinner, candy on demand, and you are <em>still</em> ending your birthday in a deficit."
+   },
+   {
+    "date": "2026-02-23",
+    "dow": "Monday",
+    "kcal": 1940.0,
+    "protein": 122.0,
+    "note": "Post-Birthday Reset / DOMS day. Breakfast: Starbucks egg bites + iced coffee (215c/13g). Lunch: Whey Nuke + arugula salad (485c/78g). Snack: panda green tea (60c). Dinner: 2 eggrolls + half sauce (330c/6g) + Pad See Ew + fried egg (~850c/25g)."
+   },
+   {
+    "date": "2026-02-24",
+    "dow": "Tuesday",
+    "kcal": 2150.0,
+    "protein": 155.0,
+    "note": "Supreme recomp day. Heavy workout + wrist shockwave tx. Lunch: Whey Nuke + banana + leftover Pad See Ew (~965c/97g). Dinner: HelloFresh caramel ginger chicken (800c/40g). 1,000-cal watch burn elite tier."
+   },
+   {
+    "date": "2026-02-25",
+    "dow": "Wednesday",
+    "kcal": 1750.0,
+    "protein": 141.0,
+    "note": "Wednesday Recovery masterclass. Breakfast: 2 eggs + maple coffee (235c/12g). Lunch: Whey Nuke + 1 banana (565c/79g). Snack: panda tea + raspberry macaron (140c/2g). Dinner: HelloFresh curry potato (720c/47g). Dessert: 1/2 small \"A\" donut (90c/1g). Birthday donut discipline."
+   },
+   {
+    "date": "2026-02-26",
+    "dow": "Thursday",
+    "kcal": 1930.0,
+    "protein": 140.0,
+    "note": "Breakfast: sourdough apple + shake no banana (~495c/77g). Crash protocol: panda tea + pizza slice w/ ranch (~510c/12g). Mid-day ~1,200c/101g. Final dinner/totals not fully captured."
+   },
+   {
+    "date": "2026-02-27",
+    "dow": "Friday",
+    "kcal": 1955.0,
+    "protein": 129.0,
+    "note": "Fried tofu day. Breakfast: 2 eggs + maple coffee + H&H (195c/12g). Lunch: Whey Nuke no banana + 1 banana (505c/78g). Dinner: HelloFresh fried tofu + cauliflower + yum sauce (~1,165c/39g). 1/2 donut correction (+90c). Double-stacked DOMS day."
+   },
+   {
+    "date": "2026-03-01",
+    "dow": "Sunday",
+    "kcal": 2180.0,
+    "protein": 151.0,
+    "note": "Gig day. Breakfast: Sunday reset - 3-scoop Whey Nuke w/ PB + almond milk (~500c/77g). Drinks: sweet cream vanilla cold brew (110c). Mango tea (60c). 3 slices no-crust chicken pizza. Macaron nightcap. Gig load-in/tear-down."
+   },
+   {
+    "date": "2026-03-03",
+    "dow": "Tuesday",
+    "kcal": 1710.0,
+    "protein": 151.0,
+    "note": "Elite hypertrophy day. Heavy delts + legs. Dinner: HelloFresh sweet soy honey chicken (570c/39g). Late night: whey chalk water + 1/2 T donut (200c/26g)."
+   },
+   {
+    "date": "2026-03-05",
+    "dow": "Thursday",
+    "kcal": 2005.0,
+    "protein": 152.0,
+    "note": "High Output Return. Breakfast: 2 eggs + 1/2 bagel w/ strawberry CC + maple coffee (375c/19g). Lunch: Whey Nuke + arugula salad w/ dressing (530c/78g). Snack: green tea (60c). Dinner: HelloFresh tofu broccoli rice bowl (790c/28g). Dessert: 1/2 chocolate donut (~150c/2g). Late night whey \"chalk water\" (100c/25g)."
+   },
+   {
+    "date": "2026-03-06",
+    "dow": "Friday",
+    "kcal": 1850.0,
+    "protein": 134.0,
+    "note": "\nBreakfast was two eggs, half a bagel and strawberry cream cheese and my usual 55 cal maple coffee\n\nLunch was my usual protein shake and 1.5 large handfuls of arugula with 1.5 tablespoons of chunky blue cheese dressing, Yum\n\n\nSnack was my usual 60 cal and 1 raspberry macaron\n\n\nDinner was HelloFresh delicious chicken dark meat bell pepper, peanut Jasmine rice Kung Paul bowl it is 690 cal in 35 g of protein<br>Mar 6, 2026, 10:28:02 PM CDT<br><p>That Kung Pao chicken bowl sounds absolutely incredible, and swapping to chunky blue cheese dressing on the arugula is such a good Friday upgrade"
+   },
+   {
+    "date": "2026-03-07",
+    "dow": "Saturday",
+    "kcal": 2255.0,
+    "protein": 114.0,
+    "note": "Breakfast: maple brown sugar oatmeal + almond milk (150c/4g). Lunch: protein shake + arugula. Snack: galaxy tea (75c) + LMNT. Dinner (Chick-fil-A): spicy sandwich w/ veggies (~470c), med fries (~420c), 2 ranch (~280c), 2 CFA sauce (~280c), half/half Sunjoy (~80c). 3 gummy worms + 3 Nik-L-Nip drinks added."
+   },
+   {
+    "date": "2026-03-08",
+    "dow": "Sunday",
+    "kcal": 2300.0,
+    "protein": 156.0,
+    "note": "Sunday heavy workout (1-rep shoulder press @ 55lbs inside). Breakfast: Shug's bagel (bacon/egg/cheese/avo/CC) + panda tea (~840c/38g). Dinner: 38g protein HelloFresh bowl (~690c). 4 PB cups. Final total 2,300c/156g. Watch > 1000 eod projected."
+   },
+   {
+    "date": "2026-03-09",
+    "dow": "Monday",
+    "kcal": 1945.0,
+    "protein": 130.0,
+    "note": "Sushi recovery day. Breakfast/lunch/tea: ~1,020c/98g. Dinner: 2 Filo crab/cream cheese rolls (~300c) + riceless Mira Mira + sauce (~500c total w/ plastic ramekin tax) + half maguro roll (~125c/12g). Protein target crushed via tuna."
+   },
+   {
+    "date": "2026-03-10",
+    "dow": "Tuesday",
+    "kcal": 1723.0,
+    "protein": 133.0,
+    "note": "Per-day note partial. Daytime: ~700c/70g. Dinner: HelloFresh pork katsu - adjusted for \"Great Carrot Casualty\" (902.5c/38g). Nightcap: 1 scoop whey in [note cut off]. Total not captured."
+   },
+   {
+    "date": "2026-03-11",
+    "dow": "Wednesday",
+    "kcal": 2110.0,
+    "protein": 131.0,
+    "note": "Breakfast: 2 eggs + 1/2 bagel + strawberry CC + 55c maple coffee w/ H&H (~450c/18g). Lunch: 78g Boss Shake + 2 handfuls arugula w/ 2 tbsp blue cheese dressing (~600c/81g). Snack: green tea (60c). Dinner: buffalo chicken taco + shrimp veggie taco + queso + chips (~1,000c/32g). Small surplus for Level 1 shoulders."
+   },
+   {
+    "date": "2026-03-12",
+    "dow": "Thursday",
+    "kcal": 1895.0,
+    "protein": 133.0,
+    "note": "Breakfast correction: replaced eggs/bagel/cheese with 120c oatmeal (~175c/4g w/ coffee). Lunch: 78g Boss Shake + 2 handfuls arugula w/ blue cheese dressing (~600c/81g). Snack: green tea (60c). Dinner: HelloFresh red coconut curry (940c/46g). Soul cals: 2 Ridiculous PB Cups (120c/2g). Watch active 1,000c final."
+   },
+   {
+    "date": "2026-03-13",
+    "dow": "Friday",
+    "kcal": 1920.0,
+    "protein": 113.0,
+    "note": "Breakfast: 120c oatmeal + 30c almond milk + 55c maple coffee (~205c/4g). Lunch: 78g Boss Shake + 1 banana + arugula w/ 2 tbsp blue cheese dressing (~705c/82g). Snacks: green tea + 1 raspberry macaron (~130c/1g). Dinner: HelloFresh pork bowl (880c/26g). Perfect recovery day."
+   },
+   {
+    "date": "2026-03-15",
+    "dow": "Sunday",
+    "kcal": 2680.0,
+    "protein": 162.0,
+    "note": "Breakfast: 2 eggs + 1/2 Asiago bagel + strawberry CC (~430c/19g). Morning drink: pistachio latte (~250c/8g). Lunch: PB/almond milk shake (360c/58g). Snack: tea (60c). Dinner: 8.5oz steak + Caesar salad + 3 tiny cranberry-walnut bread slices w/ butter + crème brûlée + pink chocolate + 5 blackberries (~1,580c/77g). Surplus."
+   },
+   {
+    "date": "2026-03-22",
+    "dow": "Sunday",
+    "kcal": 1800.0,
+    "protein": 125.0,
+    "note": "Sunday cancellation purge day. Mid-day scoreboard: ~1,110c/66g - morning shake (~400c/55g) + sweet tea (60c). Final totals not captured in extracted data."
+   },
+   {
+    "date": "2026-03-23",
+    "dow": "Monday",
+    "kcal": 1775.0,
+    "protein": 121.0,
+    "note": "Breakfast: Starbucks oatmeal (no agave, 1/3-1/2 sugar packet) + vanilla cream cold brew (~485c). Lunch: 2 handfuls arugula w/ 1 tbsp blue cheese dressing + protein shake - 3 scoops whey + almond milk + PB + 1 tbsp flax (~580c/80g+). Snack: green tea (60c) + 1 vanilla macaron (~110c). Dinner: HelloFresh (600c/30g)."
+   },
+   {
+    "date": "2026-03-24",
+    "dow": "Tuesday",
+    "kcal": 2000.0,
+    "protein": 135.0,
+    "note": "Breakfast: 2 eggs + maple coffee (~200c/12g). Lunch: protein shake (530c/78g) + 1/2 leftover Potbelly pepper sandwich (~350c). Snack: green tea (60c). Dinner: tofu snap pea pasta (860c/30g). High watch burn."
+   },
+   {
+    "date": "2026-03-25",
+    "dow": "Wednesday",
+    "kcal": 1910.0,
+    "protein": 135.0,
+    "note": "Breakfast: 2 eggs + maple coffee (~200c/12g). Lunch: protein shake (530c/78g) + arugula w/ 2 tbsp blue cheese dressing (~680c/80g). Snack: green tea (60c) + 1 Werther's Original (20c). Dinner: recovery bowl - beans, onions, romaine/rice, tomatoes, fried chicken, cilantro lime + small chicken cheese quesadilla + unsweetened Arnold Palmer (~950c/45g+). Back repair maintenance."
+   },
+   {
+    "date": "2026-03-26",
+    "dow": "Thursday",
+    "kcal": 2095.0,
+    "protein": 135.0,
+    "note": "Breakfast: Starbucks oatmeal (fruit, nuts, 50% sugar) + vanilla cold brew (~485c). Lunch: work shake - 3 scoops whey + PB + flax + almond milk + arugula w/ 1 tbsp blue cheese dressing (~580c/80g). Snack: raspberry macaron + green tea (~110c). Dinner: HelloFresh gochujang pork wraps (820c/28g). Total not explicitly captured."
+   },
+   {
+    "date": "2026-03-27",
+    "dow": "Friday",
+    "kcal": 2091.0,
+    "protein": 117.0,
+    "note": "Breakfast: 2 eggs + maple coffee w/ H&H (~200c/12g). Lunch: arugula w/ 1 tbsp blue cheese + 1 banana + New Shake - 4 scoops shared whey + PB + flax + almond milk (~625c/66g). Snack: 1 raspberry macaron + green tea (~110c/1g). Dinner: beautiful salad w/ 1 ranch + 3.2 slices supreme pizza (no crust) w/ 1 ranch + 1 mint (~1,156c/38g). Small surplus for squat/glute repair."
+   },
+   {
+    "date": "2026-03-28",
+    "dow": "Saturday",
+    "kcal": 2035.0,
+    "protein": 143.0,
+    "note": "Breakfast: 2 eggs + maple coffee w/ H&H (~195c/12g). Lunch: buffalo chicken crepe w/ slaw & mayo + 0c jasmine tea (~710c/30g). Snack: 1 small chocolate pistachio square (~70c/1g). Post-gym: usual shake - whey, PB, flax, almond milk (~510c/80g). Dinner: 2 slices supreme pizza (no crust) + 1 ranch (~550c/20g). 6-day 120g+ protein streak."
+   },
+   {
+    "date": "2026-03-29",
+    "dow": "Sunday",
+    "kcal": 1990.0,
+    "protein": 129.0,
+    "note": "Breakfast: Shug's bagel sandwich - bagel, egg, bacon, swiss, CC, avocado + cold brew w/ 1 sugar & H&H (~880c/35g). Lunch: usual shake - whey, PB, flax, almond milk (~510c/80g). Snack: green tea (60c). Dinner: HelloFresh edamame veggie bowl (600c/14g). 7-day streak. Full-body repair surplus."
+   },
+   {
+    "date": "2026-03-30",
+    "dow": "Monday",
+    "kcal": 2160.0,
+    "protein": 125.0,
+    "note": "Breakfast: Starbucks oatmeal (all toppings, blueberries, no agave, 1/2 sugar) + medium vanilla iced coffee w/ H&H (half sweet) (~520c/8g). Lunch captured but totals not (per-day note truncated mid-entry)."
+   },
+   {
+    "date": "2026-03-31",
+    "dow": "Tuesday",
+    "kcal": 2208.0,
+    "protein": 155.0,
+    "note": "Breakfast: 2 eggs + maple coffee w/ H&H (~195c/12g). Lunch started but note truncated."
+   },
+   {
+    "date": "2026-04-01",
+    "dow": "Wednesday",
+    "kcal": 1950.0,
+    "protein": 120.0,
+    "note": "Breakfast: 2 eggs + 1/2 large Shug's bagel w/ strawberry CC + coffee w/ H&H [no maple] (~465c/16g). Lunch: arugula w/ 1 tbsp dressing + The Usual Protein Shake + 10 tasteless blueberries + turmeric juice (~655c/80g). Dinner: veggie fajita w/ cheese + extra avocado + mint choc chip ice cream w/ Reese's magic shell (~830c). 10-day 120g+ streak saved by the cheese loophole."
+   },
+   {
+    "date": "2026-04-02",
+    "dow": "Thursday",
+    "kcal": 1920.0,
+    "protein": 121.0,
+    "note": "Breakfast: 2 eggs + 1/2 Shug's bagel w/ strawberry CC + maple coffee w/ H&H. Lunch: arugula w/ dressing + Usual Shake - 3 scoops whey + 1 tbsp PB + 1 tbsp flax + almond milk. Snack: usual tea (60c). Dinner: rice meal (810c/28g). Massive Thursday output."
+   },
+   {
+    "date": "2026-04-03",
+    "dow": "Friday",
+    "kcal": 1910.0,
+    "protein": 129.0,
+    "note": "Breakfast: Starbucks oatmeal (no agave, 60-70% sugar) + medium vanilla iced coffee (H&H, 2 pumps vanilla). Lunch: Usual Shake + half banana + arugula w/ dressing. Dinner: tomato pasta (830c/42g)."
+   },
+   {
+    "date": "2026-04-04",
+    "dow": "Saturday",
+    "kcal": 2015.0,
+    "protein": 157.0,
+    "note": "Breakfast: 1/2 Panera French toast bagel w/ CC + 2 eggs + coffee w/ H&H (~55c). Lunch/snacks: protein shake w/ flax + 1/4 cookie from 85°C Bakery + usual tea. Dinner: cheesy prosciutto chicken rollatini (910c/61g). Late night: 1 Werther's (~25c). RECORD HIGH PROTEIN."
+   },
+   {
+    "date": "2026-04-05",
+    "dow": "Sunday",
+    "kcal": 2035.0,
+    "protein": 128.0,
+    "note": "Workout PR day. Breakfast: 1 Shug's bagel - bacon, egg, cheese, avo, CC + 1 medium iced coffee - H&H, 1 sugar (~905c/34g). Lunch: half usual protein shake (~250c/38.5g). Snack: usual tea (60c). Dinner (640c/45g). Late night: yogurt (180c/10g). PRs: 2 unassisted bicep pull-ups w/ 3s hold, 25lb middle pull-up, 6x bar+80lb squat, 235lb leg extension."
+   },
+   {
+    "date": "2026-04-06",
+    "dow": "Monday",
+    "kcal": 1715.0,
+    "protein": 152.0,
+    "note": "Breakfast: 2 eggs + sweeter maple coffee w/ H&H (~210c/12g). Lunch: Workday Usual - arugula w/ Mediterranean dressing + 3 scoops whey + PB + flax + almond milk (~580c/80g). Snack: raspberry macaron + usual tea (~110c/1g). Dinner (640c/34g). Late night: 1 scoop Isopure + almond milk + flax (~175c/25g). Extreme DOMS from Apr 5 PRs - pre-paid repair crew w/ 152g protein."
+   },
+   {
+    "date": "2026-04-07",
+    "dow": "Tuesday",
+    "kcal": 2230.0,
+    "protein": 130.0,
+    "note": "Morning/lunch: ~1,100c/88g. Dinner (Mediterranean): hummus + gyro/bowl-type meal (~1,130c/42g). 800 watch active - big output day. Talked through Florian's bulking strategy (trail mix / liquid calories)."
+   },
+   {
+    "date": "2026-04-08",
+    "dow": "Wednesday",
+    "kcal": 1832.0,
+    "protein": 150.0,
+    "note": "Breakfast: 2 eggs + maple coffee w/ H&H (~195c/12g). Lunch: dry arugula + The Usual Shake (~540c/80g). Snack: usual tea + 1 raspberry macaron (~110c/1g). Dinner: 3/4 of a pizza (~982c/57g)."
+   },
+   {
+    "date": "2026-04-09",
+    "dow": "Thursday",
+    "kcal": 2070.0,
+    "protein": 138.0,
+    "note": "Breakfast: 2 eggs + maple coffee w/ H&H (~235c/12g). Lunch: giant dry arugula handful + The Usual Shake (~550c/80g). Snack: green tea + 1 raspberry macaron (~120c/1g). Dinner: HelloFresh shrimp tacos & massive veggies (~1,100c/32g). Late night: 1/2 chalk water w/ almond milk (~65c/13g). Huge active burn day."
+   },
+   {
+    "date": "2026-04-10",
+    "dow": "Friday",
+    "kcal": 2083.0,
+    "protein": 144.0,
+    "note": "Breakfast: 2 eggs + maple coffee w/ H&H (~235c/12g). Lunch: The Usual Shake + leftover pizza slice (~868c/99g). Snack: green tea + 1 raspberry macaron (~110c/1g). Dinner: peanut butter pasta (~870c/32g). Perfect maintenance."
+   },
+   {
+    "date": "2026-04-11",
+    "dow": "Saturday",
+    "kcal": 2085.0,
+    "protein": 142.0,
+    "note": "Breakfast: Denver omelette + 1/2 biscuit + assorted fruit cup (~945c/36g). Coffee: 2 mugs w/ milk & sugar (~120c/6g). Lunch: The Usual Shake (540c/80g). Dinner: 1.5 slices sausage/jalapeño pizza (~480c/20g). Slight surplus."
+   },
+   {
+    "date": "2026-04-12",
+    "dow": "Sunday",
+    "kcal": 2260.0,
+    "protein": 113.0,
+    "note": "Brunch: 3 Berry/Cream Cheese Crêpes + Butter. Coffee. Snack: Green Tea. Dinner: Luna Grill Mediterranean Bowl. Late: Whey + Flax + Almond Milk + Green Tea + Werther's."
+   },
+   {
+    "date": "2026-04-13",
+    "dow": "Monday",
+    "kcal": 2275.0,
+    "protein": 139.0,
+    "note": "Breakfast: 2 Eggs, Coffee, 1/2 Bagel. Lunch: Arugula Salad, Blue Cheese, Usual Shake. Snacks: Red Velvet Cake, Green tea. Dinner: HelloFresh Pork Tacos."
+   },
+   {
+    "date": "2026-04-14",
+    "dow": "Tuesday",
+    "kcal": 2050.0,
+    "protein": 146.0,
+    "note": "Breakfast: Starbucks Oatmeal, Iced Coffee. Lunch: Arugula Salad, Blue Cheese, Usual Shake. Dinner: HelloFresh Pepper Chicken Garlic Flatbread. Snacks: Tea, Werther's."
+   },
+   {
+    "date": "2026-04-15",
+    "dow": "Wednesday",
+    "kcal": 2065.0,
+    "protein": 163.0,
+    "note": "Breakfast: 2 Eggs, 1/2 Bagel w/ Cream Cheese, Coffee. Lunch: Arugula Salad, Buffalo Bleu Cheese, Usual Shake. Snack: Green Tea, Macaron. Dinner: Friend's Pumpkin Bean Chili, Shredded Cheese, Mango Kombucha."
+   },
+   {
+    "date": "2026-04-16",
+    "dow": "Thursday",
+    "kcal": 1745.0,
+    "protein": 134.0,
+    "note": "Breakfast: eggs, half bagel, cream cheese. Lunch: arugula, modified shake. Dinner: HelloFresh coconut curry. Snack: macaron, green tea."
+   },
+   {
+    "date": "2026-04-17",
+    "dow": "Friday",
+    "kcal": 2370.0,
+    "protein": 145.0,
+    "note": "Breakfast: eggs, bagel. Lunch: arugula, shake. Snack: macaron, tea. Dinner: Jake's Original Burger w/ avo & cheese, sweet potato fries w/ dip."
+   },
+   {
+    "date": "2026-04-18",
+    "dow": "Saturday",
+    "kcal": 1830.0,
+    "protein": 116.0,
+    "note": "Breakfast: Grapefruit, Black Coffee. Lunch: Usual Shake. Snack: Tea/Macaron. Dinner: ZAAP Pad See Ew + Fried Egg + 3 Crab Cream Cheese Rolls w/ Sauce."
+   },
+   {
+    "date": "2026-04-26",
+    "dow": "Sunday",
+    "kcal": 1963.0,
+    "protein": 125.0,
+    "note": "Dinner: remaining HelloFresh shrimp rice."
+   },
+   {
+    "date": "2026-04-27",
+    "dow": "Monday",
+    "kcal": 2605.0,
+    "protein": 157.0,
+    "note": "Breakfast: eggs, everything bagel, cream cheese, maple coffee. Lunch: arugula, Boss Shake. Snacks: baklava, pistachio pastry. Dinner: Cheesesteak w/ queso, sweet potato fries. Tea."
+   },
+   {
+    "date": "2026-04-28",
+    "dow": "Tuesday",
+    "kcal": 1850.0,
+    "protein": 144.0,
+    "note": "Breakfast: eggs, coffee. Lunch: Boss Shake, cotton candy grapes. Dinner: HelloFresh Banh Mi Sandwiches. Nightcap: whey, chocolate almond milk. Tea."
+   },
+   {
+    "date": "2026-04-29",
+    "dow": "Wednesday",
+    "kcal": 2005.0,
+    "protein": 121.0,
+    "note": "Breakfast: Starbucks oatmeal, iced coffee. Lunch: arugula, Boss Shake, tea. Dinner: Luna Grill Santorini Bowl, apple juice."
+   },
+   {
+    "date": "2026-04-30",
+    "dow": "Thursday",
+    "kcal": 2125.0,
+    "protein": 140.0,
+    "note": "Breakfast: eggs, bagel, coffee. Lunch: Brisket, BBQ sauce, salad, 3 mini Greek pitas. Dinner: Boss Shake."
+   },
+   {
+    "date": "2026-05-01",
+    "dow": "Friday",
+    "kcal": 2645.0,
+    "protein": 143.0,
+    "note": "Breakfast: usual. Lunch: usual. Dinner: salad, ranch, 2 slices veggie/pineapple pizza, 2 slices vodka pizza."
+   },
+   {
+    "date": "2026-05-02",
+    "dow": "Saturday",
+    "kcal": 2090.0,
+    "protein": 110.0,
+    "note": "Morning: eggs, coffee, half cookie. Lunch: scaled shake. Dinner: 4 slices pizza, ranch."
+   },
+   {
+    "date": "2026-05-04",
+    "dow": "Monday",
+    "kcal": 1985.0,
+    "protein": 138.0,
+    "note": "Breakfast: usual. Lunch: usual. Dinner: Hello Fresh meal. Snacks: tea, half cookie."
+   },
+   {
+    "date": "2026-05-05",
+    "dow": "Tuesday",
+    "kcal": 2350.0,
+    "protein": 138.0,
+    "note": "Breakfast: usual + honey. Lunch: Boss Shake, grapes. Dinner: lamb gyro w/ tzatziki, pita, hummus. Tea."
+   },
+   {
+    "date": "2026-05-06",
+    "dow": "Wednesday",
+    "kcal": 2220.0,
+    "protein": 134.0,
+    "note": "Breakfast: usual + honey. Lunch: arugula, shake, banana. Dinner: Hot pot (beef/lamb, veggies, noodles). Dessert: cookie, kombucha, ice cream."
+   },
+   {
+    "date": "2026-05-07",
+    "dow": "Thursday",
+    "kcal": 2120.0,
+    "protein": 121.0,
+    "note": "Breakfast: Starbucks oatmeal w/ berries, iced coffee. Lunch: arugula, Boss Shake. Dinner: HelloFresh Beef Bowls. Tea."
+   },
+   {
+    "date": "2026-05-08",
+    "dow": "Friday",
+    "kcal": 2090.0,
+    "protein": 119.0,
+    "note": "Breakfast: Shug's BEC bagel, cold brew. Lunch: scaled shake. Dinner: HelloFresh Coconut Curry Tofu."
+   },
+   {
+    "date": "2026-05-09",
+    "dow": "Saturday",
+    "kcal": 2155.0,
+    "protein": 125.0,
+    "note": "Breakfast: 1/2 Grapefruit, Coffee w/ honey. Lunch: Bruncheon Chorizo Fiesta w/ Egg, Avo, Biscuit. Snack: Scaled Shake. Dinner: HelloFresh Ginger Chicken. Nightcap: Werther's."
+   },
+   {
+    "date": "2026-05-10",
+    "dow": "Sunday",
+    "kcal": 1795.0,
+    "protein": 121.0,
+    "note": "Breakfast: usual. Lunch: arugula, Boss Shake. Dinner: HelloFresh Taqueria Bowls. Nightcap: Werther's."
+   },
+   {
+    "date": "2026-05-11",
+    "dow": "Monday",
+    "kcal": 2210.0,
+    "protein": 137.0,
+    "note": "Breakfast: eggs, bagel, usual. Shake."
+   },
+   {
+    "date": "2026-05-12",
+    "dow": "Tuesday",
+    "kcal": 1935.0,
+    "protein": 121.0,
+    "note": "Heavy training day. Boss Shake, eggs."
+   },
+   {
+    "date": "2026-05-15",
+    "dow": "Friday",
+    "kcal": 2170.0,
+    "protein": 137.0,
+    "note": "Standard recomp meals. Shake, meat."
+   },
+   {
+    "date": "2026-05-17",
+    "dow": "Sunday",
+    "kcal": 2230.0,
+    "protein": 123.0,
+    "note": "Breakfast: Shug's BEC. Dinner: Luna Grill Santorini Bowl. Late: Werther's."
+   },
+   {
+    "date": "2026-05-18",
+    "dow": "Monday",
+    "kcal": 2095.0,
+    "protein": 136.0,
+    "note": "Breakfast: eggs, bagel. Lunch: Shake, arugula, blackberries. Dinner: Banh Mi Tacos. Late: Werther's, Turmeric drink, Macaron."
+   },
+   {
+    "date": "2026-05-19",
+    "dow": "Tuesday",
+    "kcal": 2115.0,
+    "protein": 146.0,
+    "note": "Breakfast: eggs, bagel. Lunch: Shake, arugula, blackberries. Dinner: Sesame Chicken Coconut Rice Bowl. Late: Chocolate, Werther's."
+   },
+   {
+    "date": "2026-05-21",
+    "dow": "Thursday",
+    "kcal": 1850.0,
+    "protein": 118.5,
+    "note": "Breakfast: Starbucks oatmeal, iced horchata shaken espresso. Lunch: Boss Shake (no fruit), arugula. Dinner: standard logged dinner. Late: banana."
+   },
+   {
+    "date": "2026-05-22",
+    "dow": "Friday",
+    "kcal": 2305.0,
+    "protein": 144.0,
+    "note": "Breakfast & Lunch: usual base. Dinner: 3 slices pizza (2 buffalo chicken, 1 veggie), app salad w/ ranch, buffalo sauce, green tea."
+   },
+   {
+    "date": "2026-05-23",
+    "dow": "Saturday",
+    "kcal": 2055.0,
+    "protein": 96.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, coffee. Lunch: 2 slices leftover pizza + ranch. Snacks: banana, takoyaki. Dinner: Yama sushi roll + amberjack & salmon sashimi. Dessert: large lollipop."
+   },
+   {
+    "date": "2026-05-24",
+    "dow": "Sunday",
+    "kcal": 2105.0,
+    "protein": 136.5,
+    "note": "Breakfast: brunch spread - latkes, applesauce, sour cream, 2 cheese blintzes, jam, eggs, bacon, coffee. Lunch: modified Boss Shake. Dinner: Snappy Salads Hot Honey Chicken Salad. Late: Werther's, 2 Hershey's Kisses."
+   },
+   {
+    "date": "2026-05-29",
+    "dow": "Friday",
+    "kcal": 1990.0,
+    "protein": 130.0,
+    "note": "Breakfast: La Queen avo toast, 2 eggs, dirty chai latte. Lunch: 3-scoop whey shake. Dinner: HelloFresh Moo Shu Pork Bowls. Late: 2 Werther's."
+   },
+   {
+    "date": "2026-05-31",
+    "dow": "Sunday",
+    "kcal": 1795.0,
+    "protein": 113.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, strawberry cream cheese, coffee. Lunch: whey shake w/ PB. Dinner: Torchy's salmon taco, 1/2 Trailer Park taco, 1/2 queso & chips. Late: Werther's."
+   },
+   {
+    "date": "2026-06-01",
+    "dow": "Monday",
+    "kcal": 2585.0,
+    "protein": 130.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, strawberry cream cheese, coffee. Lunch: Panera 1/2 Chicken Bacon Rancher, 1/2 Green Goddess Cobb, bacon mac & cheese. Dinner: bulgogi. Snacks: pineapple, tea, Chalk Water whey."
+   },
+   {
+    "date": "2026-06-02",
+    "dow": "Tuesday",
+    "kcal": 2121.0,
+    "protein": 115.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, strawberry cream cheese, coffee. Lunch: 3/4 shake, cheese & basil pizza strip, 2 meat lovers pizza strips. Dinner: Thai coconut lemongrass veggie curry. Late: Werther's."
+   },
+   {
+    "date": "2026-06-03",
+    "dow": "Wednesday",
+    "kcal": 2505.0,
+    "protein": 140.5,
+    "note": "Breakfast: eggs, 1/2 protein bagel, strawberry cream cheese, coffee. Lunch: full shake, arugula. Dinner: Jake's Special Burger, sweet potato fries + marshmallow sauce. Snacks: grapefruit, tea, raspberry macaron. (Burn pre-walk)"
+   },
+   {
+    "date": "2026-06-04",
+    "dow": "Thursday",
+    "kcal": 1870.0,
+    "protein": 139.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, strawberry cream cheese, coffee. Lunch: full shake, arugula, orange. Dinner: HelloFresh Indian-Inspired Shrimp Curry. Snacks: raspberry macaron, tea."
+   },
+   {
+    "date": "2026-06-05",
+    "dow": "Friday",
+    "kcal": 1980.0,
+    "protein": 131.0,
+    "note": "Breakfast: Starbucks oatmeal w/ blueberries, nuts, dried fruit. Lunch: full shake, arugula. Dinner: HelloFresh Tostadas. Snacks: orange, sweet green tea, Werther's."
+   },
+   {
+    "date": "2026-06-06",
+    "dow": "Saturday",
+    "kcal": 2470.0,
+    "protein": 126.5,
+    "note": "Breakfast: banana, coffee. Brunch: 2 Denver omelette crepes, egg, bacon, fruit. Snacks: 1/2 iced brown sugar oat latte, whey shake w/ flax, frosted cupcake. Dinner: HelloFresh Cod Curry."
+   },
+   {
+    "date": "2026-06-07",
+    "dow": "Sunday",
+    "kcal": 1863.0,
+    "protein": 120.5,
+    "note": "Breakfast: eggs, 1/2 protein bagel, Swiss, coffee. Lunch: orange. Snack: ~70% PB/flax shake + recovery shake. Dinner: ZAAP Pad See Ew w/ tofu, fried egg. Green tea."
+   },
+   {
+    "date": "2026-06-08",
+    "dow": "Monday",
+    "kcal": 1885.0,
+    "protein": 155.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, Swiss, coffee. Lunch: arugula, orange, heavy protein shake. Snacks: Honey Nut Cheerios, granola bar. Dinner: 460 kcal dinner."
+   },
+   {
+    "date": "2026-06-09",
+    "dow": "Tuesday",
+    "kcal": 2420.0,
+    "protein": 153.0,
+    "note": "Breakfast: eggs, 1/2 protein bagel, Swiss, coffee. Lunch: arugula, orange, heavy protein shake. Snacks: raspberry macaron, tea. Dinner: 2 buffalo chicken + 1 veggie pizza slices, side salad, ranch. (Burn pre-walk)"
+   },
+   {
+    "date": "2026-06-10",
+    "dow": "Wednesday",
+    "kcal": 2120.0,
+    "protein": 128.0,
+    "note": "Breakfast: eggs, coffee. Lunch: scaled shake, buffalo chicken + veggie pizza slices, ranch. Dinner: schnitzel w/ hollandaise, boiled potatoes, white asparagus. Snacks: Werther's, tea."
+   },
+   {
+    "date": "2026-06-11",
+    "dow": "Thursday",
+    "kcal": 2305.0,
+    "protein": 153.0,
+    "note": "Breakfast: eggs, coffee. Lunch: mac & cheese, smoked sausage w/ BBQ sauce, orange, heavy protein shake. Dinner: HelloFresh Edamame Shrimp Pasta. Late: Werther's."
+   },
+   {
+    "date": "2026-06-12",
+    "dow": "Friday",
+    "kcal": 2170.0,
+    "protein": 115.0,
+    "note": "Breakfast: Starbucks oatmeal w/ raisins & blueberries, iced shaken espresso. Lunch: orange, heavy protein shake. Dinner: 1/2 Grand Canyon roll, 5 pc Kenzo House roll, truffle fries. Dessert: chocolate ice cream popsicle."
+   },
+   {
+    "date": "2026-06-13",
+    "dow": "Saturday",
+    "kcal": 2425.0,
+    "protein": 169.0,
+    "note": "Breakfast: 1.75 Bruncheon Denver crepes, egg, cold brew. Lunch: scaled shake. Dinner: Costco chicken salad, cranberry walnut bread, leftover sushi. Late: Werther's."
+   },
+   {
+    "date": "2026-06-14",
+    "dow": "Sunday",
+    "kcal": 2240.0,
+    "protein": 113.0,
+    "note": "Breakfast: granola w/ milk, 1/4 Denver crepe. Lunch: whey shake w/ flax. Dinner: 760 kcal dinner. Late: lemon macaron, Costco chicken salad, cranberry walnut bread. (Burn pre-walk)"
+   },
+   {
+    "date": "2026-06-15",
+    "dow": "Monday",
+    "kcal": 2150.0,
+    "protein": 137.0,
+    "note": "Breakfast: cranberry walnut bread, eggs, coffee. Lunch: 2/3 shake, Costco chicken salad, kiwi. Dinner: coconut curry. Snacks: rest of shake, caramel macaron, tea."
+   },
+   {
+    "date": "2026-06-16",
+    "dow": "Tuesday",
+    "kcal": 2165.0,
+    "protein": 127.0,
+    "note": "Breakfast: eggs, thin bread w/ cream cheese, coffee. Lunch: 2 slices Pizza Hut (no crusts), 1/2 shake. Dinner: HelloFresh Fried Chicken Salad Wrap. Snacks: Costco macaron, tea. (Burn projected ~1000)"
+   },
+   {
+    "date": "2026-06-17",
+    "dow": "Wednesday",
+    "kcal": 2430.0,
+    "protein": 151.0,
+    "note": "Breakfast: cranberry walnut bread w/ cream cheese, eggs, coffee. Lunch: chicken salad, full shake. Dinner: HelloFresh Spinach, Bacon & Chicken Pasta. Tea."
+   },
+   {
+    "date": "2026-06-18",
+    "dow": "Thursday",
+    "kcal": 2185.0,
+    "protein": 130.0,
+    "note": "Breakfast: Dunkin' bacon egg & cheese croissant, iced coffee. Lunch: whey, 1/2 strawberry donut. Dinner: 2 chicken ranch tacos, Piada avocado chicken salad. Snacks: Sour Patch Kids, banana."
+   },
+   {
+    "date": "2026-06-19",
+    "dow": "Friday",
+    "kcal": 2820.0,
+    "protein": 125.0,
+    "note": "Breakfast: roasted avocado hollandaise w/ Cajun. Lunch: whey shake. Dinner: crab beignets, duck w/ orange sauce. Snacks: Sour Patch Kids, 1/2 brownie ice cream w/ caramel."
+   },
+   {
+    "date": "2026-06-20",
+    "dow": "Saturday",
+    "kcal": 2247.0,
+    "protein": 94.0,
+    "note": "Breakfast: eggs, bacon, homemade bread w/ butter, coffee. Lunch: brisket peach pickled onion sandwich, chips. Dinner: tofu w/ BBQ soy, yellow rice, 2 pork spring rolls. Snacks: licorice, lemon-lime soda."
+   },
+   {
+    "date": "2026-06-21",
+    "dow": "Sunday",
+    "kcal": 2614.0,
+    "protein": 122.0,
+    "note": "Breakfast: Southwestern omelette w/ sour cream, mocha latte, biscuit w/ maple, bit of pancake. Drinks: blackberry Italian soda, mango green tea. Pastries: lemon marshmallow pastry, pimento bread, PB cookie. Dinner: 3 slices bacon pineapple pizza, licorice. Whey in water."
+   },
+   {
+    "date": "2026-06-22",
+    "dow": "Monday",
+    "kcal": 1860.0,
+    "protein": 94.0,
+    "note": "Breakfast & Lunch: omelette w/ greens & prosciutto, sugared biscuit, fruit bowl, 2 fried eggrolls, iced coffee. Dinner: protein drink. Snacks: licorice, gumballs."
+   },
+   {
+    "date": "2026-06-23",
+    "dow": "Tuesday",
+    "kcal": 1650.0,
+    "protein": 126.0,
+    "note": "Breakfast: eggs. Lunch: usual protein shake, Costco chicken salad. Snack: tea. Dinner: gyro w/ tzatziki, 1/2 small hummus."
+   },
+   {
+    "date": "2026-06-24",
+    "dow": "Wednesday",
+    "kcal": 2340.0,
+    "protein": 124.0,
+    "note": "Breakfast: Starbucks oatmeal w/ blueberries & raisins, iced horchata. Lunch: 75% shake, Costco chicken salad. Snacks: tea, dark chocolate macaron. Dinner: Luna Grill gyro."
+   },
+   {
+    "date": "2026-06-25",
+    "dow": "Thursday",
+    "kcal": 2300.0,
+    "protein": 127.5,
+    "note": "Breakfast: eggs, coffee. Lunch: 4 shawarma pieces, garlic sauce, treats, sesame pistachio cookies. Dinner: HelloFresh Green Bean Chicken Bowl. Snacks: green tea, 50% shake."
+   },
+   {
+    "date": "2026-06-26",
+    "dow": "Friday",
+    "kcal": 2300.0,
+    "protein": 121.5,
+    "note": "Breakfast: eggs, coffee. Lunch: 50% shake, Costco chicken salad. Snacks: green tea, macaron. Dinner: Yama Sushi Double Pleasure roll, 1/2 Dallas Nine roll, takoyaki, green tea ice cream (Florian's birthday)."
+   },
+   {
+    "date": "2026-06-27",
+    "dow": "Saturday",
+    "kcal": 2140.0,
+    "protein": 125.0,
+    "note": "Breakfast: berry crepe w/ whipped cream, bit of ice cream, mocha latte. Lunch: pumpkin seed protein shake. Dinner: Charlie's BBQ jalapeno bacon cheesesteak. Snacks: 2 Starbursts."
+   },
+   {
+    "date": "2026-06-28",
+    "dow": "Sunday",
+    "kcal": 1885.0,
+    "protein": 123.0,
+    "note": "Breakfast: Shug's bagel sandwich (bacon, eggs, cheese, avocado, cream cheese). Lunch: whey shake. Dinner: HelloFresh Kung Pao. Late: Werther's. (Half-sweet mocha not counted)"
+   },
+   {
+    "date": "2026-06-29",
+    "dow": "Monday",
+    "kcal": 2180.0,
+    "protein": 132.0,
+    "note": "Breakfast: eggs, coffee. Lunch: Costco chicken salad, 75% shake. Snacks: green tea, macaron. Dinner: HelloFresh Pork Pasta."
+   },
+   {
+    "date": "2026-06-30",
+    "dow": "Tuesday",
+    "kcal": 2120.0,
+    "protein": 119.0,
+    "note": "Breakfast: eggs, coffee. Lunch: Costco chicken salad, 75% shake. Snack: tea. Dinner: HelloFresh Curry Remoulade Hot Dogs."
+   },
+   {
+    "date": "2026-07-01",
+    "dow": "Wednesday",
+    "kcal": 1865.0,
+    "protein": 120.0,
+    "note": "Breakfast: eggs, coffee. Lunch: Costco chicken salad, 75% shake. Snacks: tea, Werther's. Dinner: HelloFresh Chicken Bell Pepper Pasta."
+   },
+   {
+    "date": "2026-07-02",
+    "dow": "Thursday",
+    "kcal": 2375.0,
+    "protein": 113.0,
+    "note": "Breakfast: 6 chicken minis, 1/2 Dunkin chocolate sprinkle donut. Lunch: airport sandwich. Dinner: salmon ginger noodle salad, Shirley Temple. Late: whey, Good & Plenty."
+   },
+   {
+    "date": "2026-07-03",
+    "dow": "Friday",
+    "kcal": 2245.0,
+    "protein": 80.0,
+    "note": "Breakfast: bacon egg & cheese bagel, cream cheese, toffee coffee. Snacks: Good & Plenty, mango green tea, 1/2 raspberry tart. Lunch/Dinner: Oyummy sushi. Late: more Good & Plenty."
+   },
+   {
+    "date": "2026-07-04",
+    "dow": "Saturday",
+    "kcal": 2120.0,
+    "protein": 71.0,
+    "note": "Breakfast: bacon egg & cheese biscuit, 1.5 maple coffees. Lunch: avocado toast. Snack: maple creemee. Dinner: broccoli, shrimp & scallop cheese pasta."
+   },
+   {
+    "date": "2026-07-05",
+    "dow": "Sunday",
+    "kcal": 2019.0,
+    "protein": 101.0,
+    "note": "Breakfast: eggs, bacon, pancake, maple syrup. Lunch: whey in water, maple kettle corn, maple candy. Snacks: licorice/candy. Dinner: poke bowl (no rice), fried appetizers."
+   },
+   {
+    "date": "2026-07-06",
+    "dow": "Monday",
+    "kcal": 2320.0,
+    "protein": 100.0,
+    "note": "Breakfast: omelette & watermelon, raisin toast w/ jam, iced coffees. Snacks: peach tea, 3 red bean sesame balls. Lunch: partial whey shake. Dinner: cold-cut banh mi. Late: 7 licorice wheels + other candy (not counted)."
+   },
+   {
+    "date": "2026-07-07",
+    "dow": "Tuesday",
+    "kcal": 2450.0,
+    "protein": 130.0,
+    "note": "Breakfast: banana, Starbucks egg bites, chia overnight oats, vanilla iced coffee. Lunch: usual protein shake. Snacks: licorice, maple candies, Nik-L-Nips. Dinner: HelloFresh Banh Mi."
+   },
+   {
+    "date": "2026-07-08",
+    "dow": "Wednesday",
+    "kcal": 2085.0,
+    "protein": 122.0,
+    "note": "Breakfast: maple oatmeal, coffee. Lunch: usual shake, banana. Snacks: gumballs, green tea, licorice. Dinner: gyro (no tomatoes), 6oz hummus."
+   },
+   {
+    "date": "2026-07-10",
+    "dow": "Friday",
+    "kcal": 2440.0,
+    "protein": 143.0,
+    "note": "Breakfast: whey/flax shake. Lunch: brisket w/ BBQ sauce, salad w/ ranch, mac & cheese, chocolate chip cookie, green tea. Dinner: HelloFresh Chicken, Green Bean & Rice Bowl."
+   },
+   {
+    "date": "2026-07-12",
+    "dow": "Sunday",
+    "kcal": 2090.0,
+    "protein": 111.0,
+    "note": "Breakfast: everything bagel w/ strawberry cream cheese, eggs, maple coffee. Dinner: tacos. Snacks: licorice, pumpkin seed protein, chocolate almond milk."
+   },
+   {
+    "date": "2026-07-13",
+    "dow": "Monday",
+    "kcal": 2625.0,
+    "protein": 140.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ cream cheese, maple coffee. Lunch: usual shake, strawberries, pickled fiddleheads, green tea. Dinner: 3 Zalat Loaded Notato slices, salad w/ ranch. Dessert: peach w/ whipped cream, cinnamon cookies, licorice."
+   },
+   {
+    "date": "2026-07-14",
+    "dow": "Tuesday",
+    "kcal": 1870.0,
+    "protein": 126.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, pickled fiddleheads, strawberries. Snacks: green tea, raspberry macaron. Dinner: HelloFresh Salmon, Turmeric Rice & Veggie Salad. (Burn pre-walk)"
+   },
+   {
+    "date": "2026-07-16",
+    "dow": "Thursday",
+    "kcal": 2350.0,
+    "protein": 145.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, salad. Snack: half-sweet green tea. Dinner: Jake's double cheeseburger, sweet potato fries w/ marshmallow dip."
+   },
+   {
+    "date": "2026-07-19",
+    "dow": "Sunday",
+    "kcal": 2240.0,
+    "protein": 114.0,
+    "note": "Breakfast: Preston sandwich, maple foam coffee. Lunch: whey shake w/ flax. Dinner: shrimp, crab dip, crackers, avocado sour cream dip. Snacks: bubblegum, maple candies."
+   },
+   {
+    "date": "2026-07-21",
+    "dow": "Tuesday",
+    "kcal": 1870.0,
+    "protein": 115.0,
+    "note": "Breakfast: scrambled eggs w/ cheese, maple coffee. Lunch: whey shake, salad. Snack: green tea. Dinner: bacon zucchini pasta. Dessert: chocolate cookie."
+   },
+   {
+    "date": "2026-07-22",
+    "dow": "Wednesday",
+    "kcal": 1785.0,
+    "protein": 129.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: whey shake, salad. Snacks: 2 macarons, tea. Dinner: Frito chili bowl w/ Greek yogurt. Dessert: cherries, small drink."
+   },
+   {
+    "date": "2026-07-23",
+    "dow": "Thursday",
+    "kcal": 1775.0,
+    "protein": 125.0,
+    "note": "Breakfast: Preston Club, half-sweet maple latte. Lunch: usual protein shake, ground flax. Dinner: 8 sushi pieces, fruit cup."
+   },
+   {
+    "date": "2026-07-24",
+    "dow": "Friday",
+    "kcal": 1990.0,
+    "protein": 103.0,
+    "note": "Breakfast: eggs, bacon, toast w/ maple butter, diced potatoes, maple coffee. Lunch: whey in almond milk. Dinner: 3 shrimp tacos. Dessert: slice of chocolate cake."
+   },
+   {
+    "date": "2026-07-25",
+    "dow": "Saturday",
+    "kcal": 1850.0,
+    "protein": 87.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: 1/2 Publix buffalo chicken sub. Dinner: Shirley Temple, bread w/ goat cheese, bacon-wrapped shrimp, pineapple crab cakes, asparagus. Dessert: chocolate dessert, bubble gum."
+   },
+   {
+    "date": "2026-07-26",
+    "dow": "Sunday",
+    "kcal": 2175.0,
+    "protein": 111.0,
+    "note": "Breakfast: eggs, maple coffee. Snack: protein shake, coffee. Late lunch: BBQ brisket sandwich, caramel Bucky bites. Dinner: sweet potato w/ maple butter, salami & cheese bites, blueberries, grapefruit juice."
+   },
+   {
+    "date": "2026-07-28",
+    "dow": "Tuesday",
+    "kcal": 1925.0,
+    "protein": 138.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, 2 cheese empanadas, baba ganoush, arugula. Snack: tea, cotton candy macaron. Dinner: HelloFresh Gochujang chicken bowl. Dessert: maple candy."
+   },
+   {
+    "date": "2026-07-29",
+    "dow": "Wednesday",
+    "kcal": 2005.0,
+    "protein": 119.0,
+    "note": "Breakfast: Starbucks horchata latte, oatmeal w/ blueberries. Lunch: usual shake, salad. Snack: banana, green tea. Dinner: Torchy's queso (split), salmon taco, 1/2 Trailer Park taco."
+   },
+   {
+    "date": "2026-07-30",
+    "dow": "Thursday",
+    "kcal": 1935.0,
+    "protein": 115.0,
+    "note": "Breakfast: maple coffee, banana. Lunch: usual shake, salad. Snack: cotton candy macaron, tea. Dinner: HelloFresh salmon bowls."
+   },
+   {
+    "date": "2026-07-31",
+    "dow": "Friday",
+    "kcal": 1985.0,
+    "protein": 126.0,
+    "note": "Breakfast: eggs, coffee. Lunch: usual shake. Snack: tea. Dinner: HelloFresh chicken corn. Dessert: spicy chocolate w/ pop rocks."
+   },
+   {
+    "date": "2026-08-01",
+    "dow": "Saturday",
+    "kcal": 3060.0,
+    "protein": 115.0,
+    "note": "Breakfast: berry cream cheese crepes (Lake Highlands Cafe), eggs, bacon, maple coffee. Drinks: raspberry tea, mango jasmine tea. Snacks: fruit cup, maple candy, pumpkin seed shake. Dinner: Chick-fil-A spicy chicken sandwich, waffle fries, 5 sauces."
+   },
+   {
+    "date": "2026-08-02",
+    "dow": "Sunday",
+    "kcal": 1800.0,
+    "protein": 134.0,
+    "note": "Breakfast: eggs, maple coffee. Dinner: bean & pork chop tacos w/ salsa. Evening: usual protein shake, 3 maple candies, Dubai pistachio chocolate square."
+   },
+   {
+    "date": "2026-08-03",
+    "dow": "Monday",
+    "kcal": 1775.0,
+    "protein": 118.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: modified shake (no PB, w/ banana), cotton candy grapes. Snack: cotton candy macaron, green tea. Dinner: tikka masala pasta, maple candy."
+   },
+   {
+    "date": "2026-08-04",
+    "dow": "Tuesday",
+    "kcal": 1860.0,
+    "protein": 119.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, cotton candy grapes. Snack: green tea. Dinner: HelloFresh beef cabbage bowls, maple candy."
+   },
+   {
+    "date": "2026-08-05",
+    "dow": "Wednesday",
+    "kcal": 1800.0,
+    "protein": 137.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, cotton candy grapes. Snack: cotton candy macaron, green tea. Dinner: HelloFresh chicken udon w/ spinach, maple candy."
+   },
+   {
+    "date": "2026-08-06",
+    "dow": "Thursday",
+    "kcal": 1990.0,
+    "protein": 117.0,
+    "note": "Breakfast: Starbucks oatmeal, vanilla sweet cream cold brew. Lunch: usual shake, grapes, banana. Dinner: HelloFresh chicken pepper tacos, black beans. Dessert: maple candy."
+   },
+   {
+    "date": "2026-08-07",
+    "dow": "Friday",
+    "kcal": 2390.0,
+    "protein": 116.0,
+    "note": "Breakfast: veggie/arugula pesto egg bagel, cream cheese, dirty chai latte. Snack: watermelon drink. Lunch: whey/flax shake. Dinner: HelloFresh pork & cabbage bowl. Late: 5 Buc-ee's peach rings."
+   },
+   {
+    "date": "2026-08-08",
+    "dow": "Saturday",
+    "kcal": 2085.0,
+    "protein": 144.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: usual shake. Dinner: 1/2 Torchy's nachos, Trailer Park taco, salmon taco."
+   },
+   {
+    "date": "2026-08-09",
+    "dow": "Sunday",
+    "kcal": 2214.0,
+    "protein": 114.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: usual shake. Dinner: veggie & rice bowl (kale, carrots). Late: peach rings, maple candy."
+   },
+   {
+    "date": "2026-08-10",
+    "dow": "Monday",
+    "kcal": 2360.0,
+    "protein": 140.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: usual shake, salad. Drink: tea. Dinner: chicken pad see ew (heavy portion)."
+   },
+   {
+    "date": "2026-08-11",
+    "dow": "Tuesday",
+    "kcal": 1570.0,
+    "protein": 126.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, salad. Snacks: tea, maple candy. Dinner: 590 kcal dinner."
+   },
+   {
+    "date": "2026-08-12",
+    "dow": "Wednesday",
+    "kcal": 2130.0,
+    "protein": 137.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, salad. Snacks: green tea, banana. Dinner: Mediterranean lamb plate, dips, salad, baklava, gold watermelon."
+   },
+   {
+    "date": "2026-08-13",
+    "dow": "Thursday",
+    "kcal": 2034.0,
+    "protein": 115.0,
+    "note": "Breakfast: cinnamon oatmeal w/ almond milk, maple coffee. Lunch: usual shake, grapefruit, salad. Dinner: HelloFresh Chicken, Onion & Pepper. Snacks: macaron, green tea, peach rings."
+   },
+   {
+    "date": "2026-08-14",
+    "dow": "Friday",
+    "kcal": 1700.0,
+    "protein": 119.0,
+    "note": "Breakfast: eggs. Lunch: usual shake, salad, banana. Dinner: 790 kcal dinner. Snacks: tea, chocolate caramel."
+   },
+   {
+    "date": "2026-08-15",
+    "dow": "Saturday",
+    "kcal": 2495.0,
+    "protein": 149.0,
+    "note": "Breakfast: 1.75 Bruncheon Denver crepes, egg, bacon, fruit cup. Lunch: whey isolate in almond milk. Dinner: homemade chicken piccata, pasta, mustard potato salad. Dessert: frosted brownie."
+   },
+   {
+    "date": "2026-08-16",
+    "dow": "Sunday",
+    "kcal": 2390.0,
+    "protein": 133.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: pumpkin seed protein in almond milk. Dinner: ZAAP Pad See Ew w/ tofu, chicken & egg, 2.5 egg rolls."
+   },
+   {
+    "date": "2026-08-17",
+    "dow": "Monday",
+    "kcal": 1975.0,
+    "protein": 136.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: shake (no flax), salad. Snacks: tea, macaron, psyllium. Dinner: leftovers - Denver crepe wedge, piccata pasta, chicken breast. Late: sweet potato w/ maple syrup."
+   },
+   {
+    "date": "2026-08-18",
+    "dow": "Tuesday",
+    "kcal": 2230.0,
+    "protein": 133.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: usual shake, blueberries. Snacks: green tea, two-bite brownie. Dinner: 790 kcal dinner (w/ psyllium)."
+   },
+   {
+    "date": "2026-08-19",
+    "dow": "Wednesday",
+    "kcal": 1930.0,
+    "protein": 120.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: usual shake, banana, blueberries. Snack: green tea. Dinner: baked potato w/ sour cream, bacon, spicy cheese, butter; cherry sparkling water."
+   },
+   {
+    "date": "2026-08-22",
+    "dow": "Saturday",
+    "kcal": 2120.0,
+    "protein": 125.0,
+    "note": "Breakfast: Bagel Lady Lean Green sandwich, dirty chai. Lunch: 3/4 shake w/ flax. Psyllium. Dinner: Velvet Taco - 3/4 pork taco, buffalo chicken taco, queso & chips, sips of Coke. Late: two-bite brownie."
+   },
+   {
+    "date": "2026-08-23",
+    "dow": "Sunday",
+    "kcal": 2260.0,
+    "protein": 115.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: pumpkin seed shake. Dinner: pork pepper enchiladas. Late: two-bite brownie."
+   },
+   {
+    "date": "2026-08-24",
+    "dow": "Monday",
+    "kcal": 2025.0,
+    "protein": 109.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: usual shake, banana, grapefruit juice. Snacks: macaron, sample teas. Dinner: 940 kcal dinner."
+   },
+   {
+    "date": "2026-08-25",
+    "dow": "Tuesday",
+    "kcal": 1745.0,
+    "protein": 128.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake + flax, banana, grapefruit juice. Snack: green tea. Dinner: HelloFresh (protein, spinach, almonds, ancient grains). Psyllium."
+   },
+   {
+    "date": "2026-08-30",
+    "dow": "Sunday",
+    "kcal": 1930.0,
+    "protein": 121.0,
+    "note": "Breakfast: maple oatmeal, maple coffee. Lunch: whey w/ flax. Dinner: ZAAP Pad See Ew w/ extra meat & egg."
+   },
+   {
+    "date": "2026-08-31",
+    "dow": "Monday",
+    "kcal": 1675.0,
+    "protein": 122.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: arugula w/ vinegar, protein shake + flax. Snack: mango green tea, cotton candy macaron. Dinner: 610 kcal dinner."
+   },
+   {
+    "date": "2026-09-01",
+    "dow": "Tuesday",
+    "kcal": 2865.0,
+    "protein": 85.0,
+    "note": "Breakfast: home oatmeal, maple coffee. Lunch: 4 slices leftover Zalat pizza, Sriracha ranch, arugula. Dinner: shrimp tempura veggie bowl. Late: Werther's chewy caramel."
+   },
+   {
+    "date": "2026-09-02",
+    "dow": "Wednesday",
+    "kcal": 2115.0,
+    "protein": 113.0,
+    "note": "Breakfast: Starbucks oatmeal, horchata shaken espresso. Lunch: protein shake + flax, pomegranate seeds, mini cucumbers. Snack: green tea. Dinner: spaghetti w/ tomato sauce, ricotta & bacon, apricot soda, small chocolate."
+   },
+   {
+    "date": "2026-09-03",
+    "dow": "Thursday",
+    "kcal": 1855.0,
+    "protein": 113.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: protein shake + flax, arugula. Dinner: bacon gnocchi & salad."
+   },
+   {
+    "date": "2026-09-06",
+    "dow": "Sunday",
+    "kcal": 2000.0,
+    "protein": 79.0,
+    "note": "Breakfast: eggs, French toast w/ butter & syrup, sweet coffee. Lunch: 1/2 leftover crepe. Dinner: charcuterie, lamb shank, mashed potatoes & gravy, lingonberries, Shirley Temple."
+   },
+   {
+    "date": "2026-09-07",
+    "dow": "Monday",
+    "kcal": 2290.0,
+    "protein": 119.0,
+    "note": "Breakfast: hotel omelette, Cosmic Comet coffee. Lunch: Jammin Jam crepe. Dinner: turkey avocado crepe, side salad, maple mustard. Late: whey shake w/ PB & flax, 2 maple Werther's."
+   },
+   {
+    "date": "2026-09-08",
+    "dow": "Tuesday",
+    "kcal": 1995.0,
+    "protein": 119.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: usual shake, arugula w/ vinegar, banana. Snack: 2 teas. Dinner: 970 kcal dinner."
+   },
+   {
+    "date": "2026-09-09",
+    "dow": "Wednesday",
+    "kcal": 1790.0,
+    "protein": 94.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: 2-scoop shake, arugula. Snack: macaron, green tea. Dinner: spaghetti w/ prosciutto, mushrooms & edamame. Dessert: 2 maple Werther's."
+   },
+   {
+    "date": "2026-09-10",
+    "dow": "Thursday",
+    "kcal": 2535.0,
+    "protein": 100.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ cream cheese, maple coffee. Lunch: Italian sandwich on wheat, hummus & pita. Dinner: 920 kcal meal (minus rice shared w/ Cello)."
+   },
+   {
+    "date": "2026-09-11",
+    "dow": "Friday",
+    "kcal": 2155.0,
+    "protein": 111.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ cream cheese, maple coffee. Lunch: protein shake, banana. Snack: green tea. Dinner: tacos. Dessert: 4 Werther's."
+   },
+   {
+    "date": "2026-09-12",
+    "dow": "Saturday",
+    "kcal": 2515.0,
+    "protein": 126.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, coffee/tea. Lunch: Chick-fil-A spicy chicken sandwich, waffle fries, 3 sauces, 1/2 Coke. Dinner: heavy protein shake."
+   },
+   {
+    "date": "2026-09-13",
+    "dow": "Sunday",
+    "kcal": 2230.0,
+    "protein": 133.0,
+    "note": "Breakfast: spinach artichoke croissant, iced French toast latte, overnight oats w/ banana & honey. Lunch: protein shake (no PB). Dinner: 740 kcal dinner. Dessert: 3 Werther's."
+   },
+   {
+    "date": "2026-09-15",
+    "dow": "Tuesday",
+    "kcal": 2415.0,
+    "protein": 143.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: protein shake, banana. Snacks: macaron, green tea, sweet tea. Dinner: lamb gyro, tzatziki, 1/2 hummus, 1/2 pita."
+   },
+   {
+    "date": "2026-09-17",
+    "dow": "Thursday",
+    "kcal": 1650.0,
+    "protein": 117.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: protein shake. Dinner: pork tacos. Dessert: 2 Werther's."
+   },
+   {
+    "date": "2026-09-18",
+    "dow": "Friday",
+    "kcal": 2430.0,
+    "protein": 123.0,
+    "note": "Breakfast: Bagel Lady Lean Green bagel, dirty chai. Lunch: whey/flax shake. Dinner: Torchy's Mr. Orange & Trailer Park tacos, 1/2 green chile queso & chips, Coke."
+   },
+   {
+    "date": "2026-09-19",
+    "dow": "Saturday",
+    "kcal": 1835.0,
+    "protein": 102.0,
+    "note": "Breakfast & snacks: eggs, 1/2 bagel w/ cream cheese, maple coffee, Vivi Vietnamese coffee, green tea. Linner: HelloFresh Shrimp Mango Flatbread. Dinner: protein shake. Dessert: 5 Twizzlers."
+   },
+   {
+    "date": "2026-09-20",
+    "dow": "Sunday",
+    "kcal": 1980.0,
+    "protein": 116.0,
+    "note": "Protein shake w/ flax, Pad See Ew (partial breakdown in note)."
+   },
+   {
+    "date": "2026-09-21",
+    "dow": "Monday",
+    "kcal": 1710.0,
+    "protein": 115.0,
+    "note": "Breakfast: oatmeal w/ almond milk, grapefruit, 1/2 glazed donut, maple coffee. Lunch: usual shake. Snack: green tea. Dinner: chicken risotto w/ peas."
+   },
+   {
+    "date": "2026-09-22",
+    "dow": "Tuesday",
+    "kcal": 2605.0,
+    "protein": 113.0,
+    "note": "Breakfast: eggs, full bagel w/ cream cheese. Dinner: Chick-fil-A meal w/ fries & 3 sauces (partial breakdown in note)."
+   },
+   {
+    "date": "2026-09-23",
+    "dow": "Wednesday",
+    "kcal": 2165.0,
+    "protein": 124.0,
+    "note": "Heavy 75g protein shake (no other breakdown in note)."
+   },
+   {
+    "date": "2026-09-24",
+    "dow": "Thursday",
+    "kcal": 1950.0,
+    "protein": 113.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, maple coffee. Lunch: heavy protein shake, arugula w/ vinegar, blueberries. Snack: green tea, pumpkin macaron. Dinner: curry. Misc: 2 Werther's."
+   },
+   {
+    "date": "2026-09-25",
+    "dow": "Friday",
+    "kcal": 1830.0,
+    "protein": 117.0,
+    "note": "Breakfast: eggs, maple coffee. Lunch: Tranky's taco bowl. Dinner: heavy protein shake, blueberries w/ whipped cream."
+   },
+   {
+    "date": "2026-09-26",
+    "dow": "Saturday",
+    "kcal": 2860.0,
+    "protein": 90.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ strawberry cream cheese, coffee. Drinks: Vietnamese coffee, tea. Zalat: 1/2 large Loaded Bacon Notato pizza, blue cheese ranch dip, 1/2 SiRANCHa dip."
+   },
+   {
+    "date": "2026-09-28",
+    "dow": "Monday",
+    "kcal": 1855.0,
+    "protein": 134.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ cream cheese, coffee. Lunch: arugula w/ vinegar, heavy protein shake. Snack: green tea. Dinner: 630 kcal dinner. Banana."
+   },
+   {
+    "date": "2026-09-29",
+    "dow": "Tuesday",
+    "kcal": 2185.0,
+    "protein": 128.0,
+    "note": "Breakfast: eggs, 1/2 bagel w/ cream cheese, coffee. Lunch: arugula w/ vinegar, shake, banana. Snack: green tea, macaron. Dinner: HelloFresh Pork Bop Bowl."
+   }
+  ]
+ },
+ "gym": {
+  "sessions": 100,
+  "first": "2026-01-04",
+  "last": "2026-09-25",
+  "sets": 3960,
+  "reps": 21926,
+  "volume_lbs": 1353706,
+  "hold_seconds": 59070,
+  "exercises": [
+   [
+    "shoulder press",
+    69
+   ],
+   [
+    "rear delt",
+    68
+   ],
+   [
+    "pull-ups",
+    62
+   ],
+   [
+    "biceps",
+    57
+   ],
+   [
+    "squats",
+    57
+   ],
+   [
+    "leg press",
+    48
+   ],
+   [
+    "hip abduction",
+    42
+   ],
+   [
+    "lateral raise",
+    40
+   ],
+   [
+    "rows",
+    37
+   ],
+   [
+    "triceps",
+    33
+   ],
+   [
+    "dips",
+    33
+   ],
+   [
+    "lat pulldown",
+    29
+   ],
+   [
+    "leg curl",
+    29
+   ],
+   [
+    "leg extension",
+    20
+   ],
+   [
+    "hip adduction",
+    15
+   ]
+  ],
+  "lifts": {
+   "pull-ups": {
+    "sets": 551,
+    "reps": 2496,
+    "assisted": true,
+    "best": 20.0,
+    "best_date": "2026-05-24",
+    "early_best": 40.0,
+    "late_best": 40.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 40.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 25.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 25.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 25.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 20.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 50.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 35.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 20.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 45.0
+     }
+    ]
+   },
+   "leg press": {
+    "sets": 260,
+    "reps": 1801,
+    "assisted": false,
+    "best": 380.0,
+    "best_date": "2026-05-24",
+    "early_best": 270.0,
+    "late_best": 130.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 250.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 270.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 265.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 325.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 380.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 265.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 280.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 140.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 115.0
+     }
+    ]
+   },
+   "rear delt": {
+    "sets": 475,
+    "reps": 2596,
+    "assisted": false,
+    "best": 115.0,
+    "best_date": "2026-04-07",
+    "early_best": 70.0,
+    "late_best": 100.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 55.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 70.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 115.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 115.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 100.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 75.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 100.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 100.0
+     }
+    ]
+   },
+   "hip abduction": {
+    "sets": 207,
+    "reps": 1104,
+    "assisted": false,
+    "best": 260.0,
+    "best_date": "2026-01-14",
+    "early_best": 260.0,
+    "late_best": 145.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 230.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 145.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 145.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 145.0
+     }
+    ]
+   },
+   "lat pulldown": {
+    "sets": 147,
+    "reps": 889,
+    "assisted": false,
+    "best": 175.0,
+    "best_date": "2026-05-07",
+    "early_best": 85.0,
+    "late_best": 145.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 100.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 175.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 130.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 130.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 160.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 145.0
+     }
+    ]
+   },
+   "hip adduction": {
+    "sets": 87,
+    "reps": 395,
+    "assisted": false,
+    "best": 260.0,
+    "best_date": "2026-01-06",
+    "early_best": 260.0,
+    "late_best": 145.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 260.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 145.0
+     }
+    ]
+   },
+   "shoulder press": {
+    "sets": 434,
+    "reps": 2374,
+    "assisted": false,
+    "best": 85.0,
+    "best_date": "2026-09-09",
+    "early_best": 75.0,
+    "late_best": 85.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 75.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 60.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 60.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 45.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 50.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 40.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 70.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 55.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 85.0
+     }
+    ]
+   },
+   "biceps": {
+    "sets": 235,
+    "reps": 1691,
+    "assisted": false,
+    "best": 50.0,
+    "best_date": "2026-04-28",
+    "early_best": 40.0,
+    "late_best": 22.5,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 40.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 32.5
+     },
+     {
+      "month": "2026-03",
+      "lbs": 30.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 50.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 30.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 30.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 25.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 22.5
+     },
+     {
+      "month": "2026-09",
+      "lbs": 22.5
+     }
+    ]
+   },
+   "triceps": {
+    "sets": 144,
+    "reps": 899,
+    "assisted": false,
+    "best": 120.0,
+    "best_date": "2026-01-14",
+    "early_best": 120.0,
+    "late_best": 65.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 120.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 100.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 65.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 65.0
+     }
+    ]
+   },
+   "dips": {
+    "sets": 152,
+    "reps": 877,
+    "assisted": true,
+    "best": 50.0,
+    "best_date": "2026-07-24",
+    "early_best": 70.0,
+    "late_best": 70.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 70.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 55.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 50.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 55.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 100.0
+     }
+    ]
+   },
+   "leg curl": {
+    "sets": 152,
+    "reps": 764,
+    "assisted": false,
+    "best": 145.0,
+    "best_date": "2026-04-07",
+    "early_best": 115.0,
+    "late_best": 100.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 115.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 115.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 115.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 145.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 100.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 70.0
+     }
+    ]
+   },
+   "lateral raise": {
+    "sets": 283,
+    "reps": 1324,
+    "assisted": false,
+    "best": 85.0,
+    "best_date": "2026-04-21",
+    "early_best": 25.0,
+    "late_best": 60.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 12.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 40.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 70.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 85.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 55.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 50.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 60.0
+     }
+    ]
+   },
+   "leg extension": {
+    "sets": 138,
+    "reps": 706,
+    "assisted": false,
+    "best": 235.0,
+    "best_date": "2026-04-05",
+    "early_best": 155.0,
+    "late_best": 70.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 155.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 115.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 225.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 235.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 220.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 40.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 70.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 70.0
+     }
+    ]
+   },
+   "squats": {
+    "sets": 315,
+    "reps": 1693,
+    "assisted": false,
+    "best": 95.0,
+    "best_date": "2026-03-10",
+    "early_best": 75.0,
+    "late_best": 70.0,
+    "monthly_best": [
+     {
+      "month": "2026-01",
+      "lbs": 20.0
+     },
+     {
+      "month": "2026-02",
+      "lbs": 75.0
+     },
+     {
+      "month": "2026-03",
+      "lbs": 95.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 90.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 80.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 60.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 90.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 70.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 70.0
+     }
+    ]
+   },
+   "rows": {
+    "sets": 290,
+    "reps": 1704,
+    "assisted": false,
+    "best": 215.0,
+    "best_date": "2026-09-09",
+    "early_best": 90.0,
+    "late_best": 215.0,
+    "monthly_best": [
+     {
+      "month": "2026-03",
+      "lbs": 90.0
+     },
+     {
+      "month": "2026-04",
+      "lbs": 145.0
+     },
+     {
+      "month": "2026-05",
+      "lbs": 145.0
+     },
+     {
+      "month": "2026-06",
+      "lbs": 160.0
+     },
+     {
+      "month": "2026-07",
+      "lbs": 100.0
+     },
+     {
+      "month": "2026-08",
+      "lbs": 130.0
+     },
+     {
+      "month": "2026-09",
+      "lbs": 215.0
+     }
+    ]
+   }
+  },
+  "hr": {
+   "readings": 446,
+   "avg": 154,
+   "max": 190,
+   "max_date": "2026-01-04"
+  },
+  "emoji": {
+   "🌈": 564,
+   "💪": 268,
+   "🔥": 192,
+   "❌": 39,
+   "✅": 97,
+   "🎯": 117,
+   "😭": 8,
+   "🤯": 4
+  },
+  "words": {
+   "fuck": 129,
+   "AF": 117,
+   "lol": 140,
+   "brutal": 45,
+   "roasted": 67,
+   "sore": 43,
+   "hard": 367,
+   "holy shit": 18,
+   "claude": 22,
+   "gemini": 3
+  },
+  "hated": [
+   [
+    "leg curl",
+    13
+   ],
+   [
+    "dips",
+    7
+   ],
+   [
+    "lat pulldown",
+    3
+   ],
+   [
+    "triceps",
+    1
+   ],
+   [
+    "abs",
+    1
+   ]
+  ],
+  "by_dow": [
+   {
+    "dow": "Monday",
+    "n": 8
+   },
+   {
+    "dow": "Tuesday",
+    "n": 27
+   },
+   {
+    "dow": "Wednesday",
+    "n": 9
+   },
+   {
+    "dow": "Thursday",
+    "n": 23
+   },
+   {
+    "dow": "Friday",
+    "n": 8
+   },
+   {
+    "dow": "Saturday",
+    "n": 1
+   },
+   {
+    "dow": "Sunday",
+    "n": 24
+   }
+  ],
+  "gap_avg_days": 2.7,
+  "gap_max_days": 13,
+  "unassisted_pullups": 5,
+  "unassisted_pullups_disputed": 1,
+  "unassisted_pullup_days": 3,
+  "first_unassisted_pullup": "2026-01-04",
+  "stair_floors": 70,
+  "stair_sessions": 1,
+  "vest_sessions": 5,
+  "moods": [
+   {
+    "key": "none",
+    "label": "No comment",
+    "sessions": 53,
+    "avg_sets": 38.1,
+    "avg_volume": 13151,
+    "avg_rainbows": 5.1
+   },
+   {
+    "key": "beast",
+    "label": "Beast mode",
+    "sessions": 19,
+    "avg_sets": 42,
+    "avg_volume": 14218,
+    "avg_rainbows": 6.5
+   },
+   {
+    "key": "fumes",
+    "label": "Running on fumes",
+    "sessions": 11,
+    "avg_sets": 37.2,
+    "avg_volume": 11678,
+    "avg_rainbows": 5.1
+   },
+   {
+    "key": "unmotivated",
+    "label": "Unmotivated, showed up anyway",
+    "sessions": 9,
+    "avg_sets": 42.7,
+    "avg_volume": 15150,
+    "avg_rainbows": 7.8
+   },
+   {
+    "key": "sore",
+    "label": "Sore but here",
+    "sessions": 6,
+    "avg_sets": 44.8,
+    "avg_volume": 14937,
+    "avg_rainbows": 5.5
+   },
+   {
+    "key": "okay",
+    "label": "Fine, whatever",
+    "sessions": 2,
+    "avg_sets": 41,
+    "avg_volume": 16068,
+    "avg_rainbows": 6
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2026-01-04",
+    "mood": null,
+    "sets": 19,
+    "volume": 11260,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-01-06",
+    "mood": null,
+    "sets": 31,
+    "volume": 15442,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-01-08",
+    "mood": null,
+    "sets": 30,
+    "volume": 2618,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-01-12",
+    "mood": null,
+    "sets": 27,
+    "volume": 12935,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-01-14",
+    "mood": null,
+    "sets": 21,
+    "volume": 12035,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-01-27",
+    "mood": null,
+    "sets": 16,
+    "volume": 5358,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-01-29",
+    "mood": "fumes",
+    "sets": 21,
+    "volume": 7185,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-02-01",
+    "mood": "beast",
+    "sets": 22,
+    "volume": 8520,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-02-03",
+    "mood": "fumes",
+    "sets": 18,
+    "volume": 2730,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-02-06",
+    "mood": null,
+    "sets": 31,
+    "volume": 14620,
+    "rainbows": 3
+   },
+   {
+    "date": "2026-02-08",
+    "mood": "unmotivated",
+    "sets": 23,
+    "volume": 8005,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-02-11",
+    "mood": null,
+    "sets": 19,
+    "volume": 1335,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-02-13",
+    "mood": "fumes",
+    "sets": 34,
+    "volume": 13265,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-02-16",
+    "mood": null,
+    "sets": 32,
+    "volume": 19990,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-02-18",
+    "mood": null,
+    "sets": 21,
+    "volume": 3685,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-02-22",
+    "mood": "fumes",
+    "sets": 28,
+    "volume": 6930,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-02-24",
+    "mood": null,
+    "sets": 29,
+    "volume": 17410,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-02-27",
+    "mood": null,
+    "sets": 29,
+    "volume": 6935,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-03-01",
+    "mood": null,
+    "sets": 27,
+    "volume": 13275,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-03",
+    "mood": "okay",
+    "sets": 39,
+    "volume": 12015,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-05",
+    "mood": "beast",
+    "sets": 30,
+    "volume": 4375,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-08",
+    "mood": "beast",
+    "sets": 33,
+    "volume": 14715,
+    "rainbows": 0
+   },
+   {
+    "date": "2026-03-10",
+    "mood": "beast",
+    "sets": 37,
+    "volume": 9720,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-03-12",
+    "mood": null,
+    "sets": 34,
+    "volume": 14978,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-03-15",
+    "mood": null,
+    "sets": 29,
+    "volume": 8595,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-17",
+    "mood": "beast",
+    "sets": 44,
+    "volume": 17648,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-03-19",
+    "mood": "beast",
+    "sets": 48,
+    "volume": 23620,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-03-22",
+    "mood": "sore",
+    "sets": 34,
+    "volume": 5270,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-24",
+    "mood": null,
+    "sets": 33,
+    "volume": 15355,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-26",
+    "mood": "beast",
+    "sets": 29,
+    "volume": 8090,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-03-28",
+    "mood": "unmotivated",
+    "sets": 34,
+    "volume": 15180,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-03-31",
+    "mood": null,
+    "sets": 37,
+    "volume": 10345,
+    "rainbows": 3
+   },
+   {
+    "date": "2026-04-02",
+    "mood": null,
+    "sets": 35,
+    "volume": 7455,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-04-05",
+    "mood": null,
+    "sets": 45,
+    "volume": 6742,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-04-07",
+    "mood": null,
+    "sets": 38,
+    "volume": 13020,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-04-09",
+    "mood": "beast",
+    "sets": 40,
+    "volume": 16220,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-04-12",
+    "mood": "beast",
+    "sets": 42,
+    "volume": 4368,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-04-14",
+    "mood": "sore",
+    "sets": 42,
+    "volume": 14175,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-04-16",
+    "mood": null,
+    "sets": 38,
+    "volume": 16165,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-04-19",
+    "mood": null,
+    "sets": 46,
+    "volume": 15945,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-04-21",
+    "mood": null,
+    "sets": 51,
+    "volume": 20852,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-04-23",
+    "mood": "fumes",
+    "sets": 45,
+    "volume": 9880,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-04-26",
+    "mood": "fumes",
+    "sets": 42,
+    "volume": 16885,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-04-28",
+    "mood": null,
+    "sets": 39,
+    "volume": 16452,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-04-30",
+    "mood": "fumes",
+    "sets": 47,
+    "volume": 10605,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-05-03",
+    "mood": null,
+    "sets": 61,
+    "volume": 25765,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-05-05",
+    "mood": null,
+    "sets": 53,
+    "volume": 24630,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-05-07",
+    "mood": null,
+    "sets": 51,
+    "volume": 13985,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-05-10",
+    "mood": null,
+    "sets": 53,
+    "volume": 23400,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-05-12",
+    "mood": "sore",
+    "sets": 55,
+    "volume": 15605,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-05-14",
+    "mood": "sore",
+    "sets": 51,
+    "volume": 22135,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-05-17",
+    "mood": "beast",
+    "sets": 35,
+    "volume": 9045,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-05-19",
+    "mood": "fumes",
+    "sets": 45,
+    "volume": 15460,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-05-21",
+    "mood": null,
+    "sets": 42,
+    "volume": 18170,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-05-24",
+    "mood": "okay",
+    "sets": 43,
+    "volume": 20120,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-05-26",
+    "mood": "beast",
+    "sets": 43,
+    "volume": 11942,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-05-29",
+    "mood": null,
+    "sets": 42,
+    "volume": 7220,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-06-01",
+    "mood": "beast",
+    "sets": 57,
+    "volume": 13750,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-06-03",
+    "mood": "beast",
+    "sets": 65,
+    "volume": 26940,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-06-05",
+    "mood": null,
+    "sets": 43,
+    "volume": 10940,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-06-08",
+    "mood": null,
+    "sets": 38,
+    "volume": 10155,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-06-11",
+    "mood": null,
+    "sets": 48,
+    "volume": 18605,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-06-14",
+    "mood": null,
+    "sets": 46,
+    "volume": 18195,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-06-16",
+    "mood": null,
+    "sets": 44,
+    "volume": 13655,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-06-23",
+    "mood": null,
+    "sets": 41,
+    "volume": 10115,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-06-25",
+    "mood": null,
+    "sets": 43,
+    "volume": 11676,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-06-29",
+    "mood": null,
+    "sets": 33,
+    "volume": 8125,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-07-01",
+    "mood": null,
+    "sets": 48,
+    "volume": 21235,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-07-08",
+    "mood": "unmotivated",
+    "sets": 44,
+    "volume": 10660,
+    "rainbows": 6
+   },
+   {
+    "date": "2026-07-10",
+    "mood": null,
+    "sets": 36,
+    "volume": 16305,
+    "rainbows": 5
+   },
+   {
+    "date": "2026-07-12",
+    "mood": null,
+    "sets": 39,
+    "volume": 6980,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-07-14",
+    "mood": null,
+    "sets": 56,
+    "volume": 13595,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-07-16",
+    "mood": "sore",
+    "sets": 34,
+    "volume": 13765,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-07-19",
+    "mood": "unmotivated",
+    "sets": 58,
+    "volume": 23215,
+    "rainbows": 14
+   },
+   {
+    "date": "2026-07-21",
+    "mood": "unmotivated",
+    "sets": 44,
+    "volume": 5790,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-07-24",
+    "mood": null,
+    "sets": 29,
+    "volume": 3865,
+    "rainbows": 4
+   },
+   {
+    "date": "2026-07-28",
+    "mood": "beast",
+    "sets": 39,
+    "volume": 18725,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-07-30",
+    "mood": null,
+    "sets": 50,
+    "volume": 7600,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-08-02",
+    "mood": "unmotivated",
+    "sets": 43,
+    "volume": 12465,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-08-04",
+    "mood": null,
+    "sets": 50,
+    "volume": 14600,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-08-06",
+    "mood": "sore",
+    "sets": 53,
+    "volume": 18670,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-08-09",
+    "mood": "beast",
+    "sets": 55,
+    "volume": 13650,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-08-11",
+    "mood": null,
+    "sets": 36,
+    "volume": 14070,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-08-13",
+    "mood": "fumes",
+    "sets": 44,
+    "volume": 17708,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-08-16",
+    "mood": "unmotivated",
+    "sets": 44,
+    "volume": 18605,
+    "rainbows": 11
+   },
+   {
+    "date": "2026-08-18",
+    "mood": "beast",
+    "sets": 36,
+    "volume": 13855,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-08-20",
+    "mood": "beast",
+    "sets": 42,
+    "volume": 15528,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-08-23",
+    "mood": null,
+    "sets": 35,
+    "volume": 16645,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-08-25",
+    "mood": "fumes",
+    "sets": 46,
+    "volume": 18215,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-08-27",
+    "mood": "beast",
+    "sets": 50,
+    "volume": 19970,
+    "rainbows": 10
+   },
+   {
+    "date": "2026-08-31",
+    "mood": null,
+    "sets": 37,
+    "volume": 13715,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-09-02",
+    "mood": null,
+    "sets": 21,
+    "volume": 9800,
+    "rainbows": 3
+   },
+   {
+    "date": "2026-09-07",
+    "mood": "beast",
+    "sets": 51,
+    "volume": 19470,
+    "rainbows": 10
+   },
+   {
+    "date": "2026-09-09",
+    "mood": null,
+    "sets": 44,
+    "volume": 21590,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-09-13",
+    "mood": "fumes",
+    "sets": 39,
+    "volume": 9600,
+    "rainbows": 9
+   },
+   {
+    "date": "2026-09-15",
+    "mood": null,
+    "sets": 55,
+    "volume": 18490,
+    "rainbows": 10
+   },
+   {
+    "date": "2026-09-17",
+    "mood": "unmotivated",
+    "sets": 47,
+    "volume": 20125,
+    "rainbows": 7
+   },
+   {
+    "date": "2026-09-21",
+    "mood": null,
+    "sets": 43,
+    "volume": 9974,
+    "rainbows": 2
+   },
+   {
+    "date": "2026-09-23",
+    "mood": null,
+    "sets": 44,
+    "volume": 11090,
+    "rainbows": 8
+   },
+   {
+    "date": "2026-09-25",
+    "mood": "unmotivated",
+    "sets": 47,
+    "volume": 22302,
+    "rainbows": 9
+   }
+  ]
+ },
+ "cross": {
+  "window": [
+   "2026-01-04",
+   "2026-09-25"
+  ],
+  "gym_days": {
+   "n": 100,
+   "kcal": 2059.0,
+   "protein": 131.0,
+   "active": 920.0
+  },
+  "rest_days": {
+   "n": 165,
+   "kcal": 2075.0,
+   "protein": 123.0,
+   "active": 443.0
+  },
+  "prev_day_pairs": 100,
+  "r_protein_volume": -0.03,
+  "r_kcal_volume": 0.13,
+  "protein_median_split": 125.0,
+  "volume_after_high_protein": 13205,
+  "volume_after_low_protein": 13942,
+  "n_high": 55,
+  "n_low": 45,
+  "after_pizza": {
+   "n": 11,
+   "avg_volume": 13907,
+   "avg_rainbows": 4.8
+  },
+  "avg_volume_all": 13537,
+  "pairs": [
+   [
+    115.0,
+    11260
+   ],
+   [
+    121.0,
+    15442
+   ],
+   [
+    136.0,
+    2618
+   ],
+   [
+    135.0,
+    12935
+   ],
+   [
+    135.0,
+    12035
+   ],
+   [
+    105.0,
+    5358
+   ],
+   [
+    121.0,
+    7185
+   ],
+   [
+    109.0,
+    8520
+   ],
+   [
+    135.0,
+    2730
+   ],
+   [
+    143.0,
+    14620
+   ],
+   [
+    135.0,
+    8005
+   ],
+   [
+    147.0,
+    1335
+   ],
+   [
+    132.0,
+    13265
+   ],
+   [
+    127.0,
+    19990
+   ],
+   [
+    138.0,
+    3685
+   ],
+   [
+    125.0,
+    6930
+   ],
+   [
+    122.0,
+    17410
+   ],
+   [
+    140.0,
+    6935
+   ],
+   [
+    125.0,
+    13275
+   ],
+   [
+    123.0,
+    12015
+   ],
+   [
+    127.0,
+    4375
+   ],
+   [
+    114.0,
+    14715
+   ],
+   [
+    130.0,
+    9720
+   ],
+   [
+    131.0,
+    14978
+   ],
+   [
+    102.0,
+    8595
+   ],
+   [
+    130.0,
+    17648
+   ],
+   [
+    147.0,
+    23620
+   ],
+   [
+    124.0,
+    5270
+   ],
+   [
+    121.0,
+    15355
+   ],
+   [
+    135.0,
+    8090
+   ],
+   [
+    117.0,
+    15180
+   ],
+   [
+    125.0,
+    10345
+   ],
+   [
+    120.0,
+    7455
+   ],
+   [
+    157.0,
+    6742
+   ],
+   [
+    152.0,
+    13020
+   ],
+   [
+    150.0,
+    16220
+   ],
+   [
+    142.0,
+    4368
+   ],
+   [
+    139.0,
+    14175
+   ],
+   [
+    163.0,
+    16165
+   ],
+   [
+    116.0,
+    15945
+   ],
+   [
+    152.0,
+    20852
+   ],
+   [
+    108.0,
+    9880
+   ],
+   [
+    119.0,
+    16885
+   ],
+   [
+    157.0,
+    16452
+   ],
+   [
+    121.0,
+    10605
+   ],
+   [
+    110.0,
+    25765
+   ],
+   [
+    138.0,
+    24630
+   ],
+   [
+    134.0,
+    13985
+   ],
+   [
+    125.0,
+    23400
+   ],
+   [
+    137.0,
+    15605
+   ],
+   [
+    139.0,
+    22135
+   ],
+   [
+    103.0,
+    9045
+   ],
+   [
+    136.0,
+    15460
+   ],
+   [
+    136.0,
+    18170
+   ],
+   [
+    96.0,
+    20120
+   ],
+   [
+    105.5,
+    11942
+   ],
+   [
+    137.0,
+    7220
+   ],
+   [
+    113.0,
+    13750
+   ],
+   [
+    115.0,
+    26940
+   ],
+   [
+    139.0,
+    10940
+   ],
+   [
+    120.5,
+    10155
+   ],
+   [
+    128.0,
+    18605
+   ],
+   [
+    169.0,
+    18195
+   ],
+   [
+    137.0,
+    13655
+   ],
+   [
+    94.0,
+    10115
+   ],
+   [
+    124.0,
+    11676
+   ],
+   [
+    123.0,
+    8125
+   ],
+   [
+    119.0,
+    21235
+   ],
+   [
+    130.0,
+    10660
+   ],
+   [
+    116.0,
+    16305
+   ],
+   [
+    114.0,
+    6980
+   ],
+   [
+    140.0,
+    13595
+   ],
+   [
+    135.0,
+    13765
+   ],
+   [
+    110.0,
+    23215
+   ],
+   [
+    134.0,
+    5790
+   ],
+   [
+    125.0,
+    3865
+   ],
+   [
+    149.0,
+    18725
+   ],
+   [
+    119.0,
+    7600
+   ],
+   [
+    115.0,
+    12465
+   ],
+   [
+    118.0,
+    14600
+   ],
+   [
+    137.0,
+    18670
+   ],
+   [
+    144.0,
+    13650
+   ],
+   [
+    140.0,
+    14070
+   ],
+   [
+    137.0,
+    17708
+   ],
+   [
+    149.0,
+    18605
+   ],
+   [
+    136.0,
+    13855
+   ],
+   [
+    120.0,
+    15528
+   ],
+   [
+    125.0,
+    16645
+   ],
+   [
+    109.0,
+    18215
+   ],
+   [
+    133.0,
+    19970
+   ],
+   [
+    121.0,
+    13715
+   ],
+   [
+    85.0,
+    9800
+   ],
+   [
+    79.0,
+    19470
+   ],
+   [
+    119.0,
+    21590
+   ],
+   [
+    126.0,
+    9600
+   ],
+   [
+    102.0,
+    18490
+   ],
+   [
+    95.0,
+    20125
+   ],
+   [
+    116.0,
+    9974
+   ],
+   [
+    113.0,
+    11090
+   ],
+   [
+    113.0,
+    22302
+   ]
+  ],
+  "avg_rainbows_all": 5.6,
+  "mood_food": [
+   {
+    "key": "none",
+    "label": "No comment",
+    "n": 53,
+    "kcal": 2033.0,
+    "protein": 130.0
+   },
+   {
+    "key": "beast",
+    "label": "Beast mode",
+    "n": 19,
+    "kcal": 2143.0,
+    "protein": 133.0
+   },
+   {
+    "key": "fumes",
+    "label": "Running on fumes",
+    "n": 11,
+    "kcal": 2082.0,
+    "protein": 132.0
+   },
+   {
+    "key": "unmotivated",
+    "label": "Unmotivated, showed up anyway",
+    "n": 9,
+    "kcal": 1996.0,
+    "protein": 123.0
+   },
+   {
+    "key": "sore",
+    "label": "Sore but here",
+    "n": 6,
+    "kcal": 2137.0,
+    "protein": 134.0
+   },
+   {
+    "key": "okay",
+    "label": "Fine, whatever",
+    "n": 2,
+    "kcal": 1908.0,
+    "protein": 144.0
+   }
+  ]
+ },
+ "parse": {
+  "unparsed_set_lines": 5
+ }
+}

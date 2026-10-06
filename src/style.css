@@ -1,0 +1,293 @@
+/* ---------------------------------------------------------------
+   Kelsey Wrapped. Every card is a solid field in one of the
+   Fisher-Price magnet colours, the same set as the Special Interests
+   title. Text flips between white and ink per field so each clears
+   4.5:1 (white on red 5.1, blue 6.4, purple 7.2, green 5.4; ink on
+   orange 7.5, yellow 12.6). The roast always sits on a paper sticker.
+---------------------------------------------------------------- */
+:root {
+  --ink: #14120E;
+  --paper: #FFFCF7;
+  --sticker: #FFF8E1;
+
+  --red: #D22B1E;
+  --orange: #F5871F;
+  --yellow: #F7D117;
+  --green: #1F7A36;
+  --blue: #1858C7;
+  --purple: #6B32C9;
+
+  --display: "Dela Gothic One", "Arial Black", Impact, sans-serif;
+  --body: "Familjen Grotesk", Helvetica, Arial, sans-serif;
+  --till: "Courier Prime", "Courier New", monospace;
+
+  --bg: var(--paper);
+  --fg: var(--ink);
+}
+
+body[data-bg="paper"]  { --bg: var(--paper);  --fg: var(--ink); }
+body[data-bg="red"]    { --bg: var(--red);    --fg: #fff; }
+body[data-bg="blue"]   { --bg: var(--blue);   --fg: #fff; }
+body[data-bg="purple"] { --bg: var(--purple); --fg: #fff; }
+body[data-bg="green"]  { --bg: var(--green);  --fg: #fff; }
+body[data-bg="orange"] { --bg: var(--orange); --fg: var(--ink); }
+body[data-bg="yellow"] { --bg: var(--yellow); --fg: var(--ink); }
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--body);
+  font-size: 1.05rem;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  transition: background-color 0.35s ease;
+}
+
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--fg); outline-offset: 3px; border-radius: 6px; }
+
+.skip {
+  position: fixed; left: 12px; top: -60px; z-index: 10;
+  padding: 8px 12px; background: var(--paper); color: var(--ink); border-radius: 8px;
+}
+.skip:focus { top: 12px; }
+
+/* ---------- chrome ---------- */
+.progress {
+  position: fixed; inset: 10px 12px auto; z-index: 3;
+  display: flex; gap: 4px;
+}
+.seg {
+  flex: 1; height: 4px; border-radius: 2px;
+  background: color-mix(in srgb, var(--fg) 25%, transparent);
+}
+.seg.done { background: var(--fg); }
+
+.top {
+  position: fixed; inset: 22px 16px auto; z-index: 3;
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-weight: 700; font-size: 0.95rem;
+}
+.home { color: inherit; opacity: 0.8; }
+.home:hover { opacity: 1; }
+
+.stage {
+  height: 100dvh;
+  overflow-y: auto;
+  padding: 64px 20px 96px;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav {
+  position: fixed; inset: auto 0 0; z-index: 3;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: linear-gradient(transparent, var(--bg) 40%);
+}
+.nav button {
+  min-width: 92px; padding: 10px 18px;
+  border: 2.5px solid var(--fg); border-radius: 999px;
+  background: transparent; font-weight: 700; cursor: pointer;
+}
+.nav button:last-child { background: var(--fg); color: var(--bg); }
+.nav button:disabled { opacity: 0.3; cursor: default; }
+.count { font-weight: 600; opacity: 0.85; font-variant-numeric: tabular-nums; }
+
+/* ---------- the card ---------- */
+.card {
+  max-width: 640px;
+  margin: 0 auto;
+  min-height: calc(100dvh - 160px);
+  display: flex; flex-direction: column; justify-content: center;
+  gap: 14px;
+}
+
+.big {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(4.4rem, 21vw, 10.5rem);
+  line-height: 0.88;
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.big-sm { font-size: clamp(2.6rem, 11vw, 5.4rem); }
+
+.unit {
+  margin: 0;
+  max-width: 28ch;
+  font-size: clamp(1.25rem, 4.4vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.multi { display: flex; flex-wrap: wrap; gap: 18px 34px; }
+.multi-cell { min-width: 0; }
+.multi .unit { font-size: 1.1rem; }
+
+/* The roast: a paper sticker slapped on at an angle. */
+.sticker {
+  align-self: flex-start;
+  max-width: 34ch;
+  margin: 10px 0 4px;
+  padding: 14px 18px;
+  background: var(--sticker);
+  color: var(--ink);
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  box-shadow: 6px 6px 0 var(--ink);
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.35;
+  transform: rotate(var(--tilt, -2deg));
+  animation: slap 0.38s cubic-bezier(0.2, 1.5, 0.4, 1) both 0.25s;
+}
+.sticker.slap { animation-delay: 0s; }
+@keyframes slap {
+  from { transform: rotate(calc(var(--tilt, -2deg) * 3)) scale(1.25); opacity: 0; }
+  to   { transform: rotate(var(--tilt, -2deg)) scale(1); opacity: 1; }
+}
+
+.foot {
+  margin: 6px 0 0;
+  max-width: 60ch;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  opacity: 0.88;
+}
+
+.emoji-row { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-size: 1.3rem; font-weight: 700; }
+
+.cta {
+  align-self: flex-start;
+  padding: 12px 22px;
+  border: 3px solid var(--fg);
+  border-radius: 999px;
+  background: var(--fg);
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.cta.ghost { background: transparent; color: var(--fg); }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* ---------- intro ---------- */
+.title {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(3.6rem, 17vw, 8.6rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+.title .ltr { display: inline-block; }
+.title .ltr-0 { color: var(--red); }
+.title .ltr-1 { color: var(--orange); }
+.title .ltr-2 { color: #E0B800; -webkit-text-stroke: 0.025em #7A5D00; paint-order: stroke fill; }
+.title .ltr-3 { color: var(--green); }
+.title .ltr-4 { color: var(--blue); }
+.title .ltr-5 { color: var(--purple); }
+.title .sp { display: block; height: 0; }
+.lede { margin: 6px 0 0; max-width: 30ch; font-size: clamp(1.3rem, 4.6vw, 1.75rem); font-weight: 700; line-height: 1.2; }
+
+/* ---------- charts: marks take the card's text colour ---------- */
+.chart { margin: 8px 0 0; cursor: default; }
+.chart-title { font-weight: 700; margin-bottom: 8px; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.readout { margin: 6px 0 0; font-size: 0.92rem; min-height: 1.4em; font-weight: 600; }
+
+.vbars .bar { fill: var(--fg); opacity: 0.88; }
+.vbars .mark.on .bar, .vbars .mark:focus .bar { opacity: 1; }
+.hit { fill: transparent; }
+.tick { fill: var(--fg); font: 600 11px var(--body); opacity: 0.85; }
+.val { fill: var(--fg); font: 700 12px var(--body); }
+.base { stroke: var(--fg); stroke-width: 1.5; opacity: 0.6; }
+.grid { stroke: var(--fg); stroke-width: 1; opacity: 0.25; }
+.mark { outline: none; cursor: pointer; }
+.mark:focus-visible .bar, .mark:focus-visible .dot { stroke: var(--fg); stroke-width: 3; }
+
+.linechart .ln { fill: none; stroke: var(--fg); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.linechart .dot { fill: var(--fg); stroke: var(--bg); stroke-width: 2; }
+.linechart .mark.on .dot { r: 6; }
+
+.scatter .pt { fill: var(--fg); fill-opacity: 0.55; stroke: var(--bg); stroke-width: 1.5; cursor: pointer; outline: none; }
+.scatter .pt.on, .scatter .pt:focus-visible { fill-opacity: 1; r: 7; }
+
+.hbars { display: grid; gap: 8px; }
+.hbar {
+  display: grid; grid-template-columns: minmax(7.5rem, 11rem) 1fr auto;
+  align-items: center; gap: 10px; outline: none; cursor: pointer;
+  border-radius: 6px;
+}
+.hbar:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+.hbar-label { font-weight: 600; font-size: 0.95rem; line-height: 1.15; }
+.hbar-track { height: 18px; }
+.hbar-fill {
+  display: block; height: 100%; min-width: 3px;
+  background: var(--fg); opacity: 0.7;
+  border-radius: 0 4px 4px 0;
+}
+.hbar.hot .hbar-fill, .hbar.on .hbar-fill { opacity: 1; }
+.hbar-val { font-weight: 700; font-variant-numeric: tabular-nums; }
+/* the rest-day bar is an outline, so the pair never relies on shade alone */
+.hbar.rest .hbar-fill { background: transparent; box-shadow: inset 0 0 0 2.5px var(--fg); opacity: 1; }
+.pair { margin-bottom: 10px; }
+.pair-label { margin: 0 0 4px; font-weight: 700; }
+
+.prs { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 2px; }
+.prs li {
+  display: grid; grid-template-columns: 1fr auto 4.2rem; gap: 12px; align-items: baseline;
+  padding: 5px 0; border-bottom: 2px solid color-mix(in srgb, var(--fg) 30%, transparent);
+}
+.pr-name { font-weight: 600; }
+.pr-lbs { font-family: var(--display); font-size: 1.15rem; }
+.pr-date { text-align: right; opacity: 0.85; font-size: 0.9rem; }
+
+/* ---------- menu + receipt: thermal paper ---------- */
+.menu, .receipt {
+  position: relative;
+  align-self: stretch;
+  max-width: 460px;
+  padding: 22px 22px 26px;
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--till);
+  box-shadow: 0 14px 0 -6px rgba(20, 18, 14, 0.25);
+  cursor: default;
+}
+.menu::after, .receipt::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -10px; height: 12px;
+  background: linear-gradient(-45deg, transparent 6px, #fff 0) 0 0 / 12px 12px repeat-x,
+              linear-gradient(45deg, transparent 6px, #fff 0) 0 0 / 12px 12px repeat-x;
+}
+.menu-date { margin: 0 0 10px; font-weight: 700; }
+.menu-note { margin: 0; white-space: pre-wrap; line-height: 1.55; }
+.menu-tot { margin: 14px 0 0; padding-top: 10px; border-top: 2px dashed var(--ink); font-weight: 700; }
+
+.kind-receipt { justify-content: flex-start; padding-top: 8px; }
+.r-head { margin: 0; text-align: center; font-weight: 700; font-size: 1.25rem; letter-spacing: 0.06em; }
+.r-sub { margin: 2px 0 14px; text-align: center; }
+.r-list { list-style: none; margin: 0; padding: 0; }
+.r-list li { display: flex; justify-content: space-between; gap: 12px; padding: 2px 0; }
+.r-k { white-space: pre; }
+.r-v { font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; }
+.r-rule { justify-content: center !important; opacity: 0.7; overflow: hidden; white-space: nowrap; }
+.r-total { margin: 14px 0 0; padding-top: 10px; border-top: 2px dashed var(--ink); font-weight: 700; font-size: 1.1rem; }
+.r-thanks { margin: 14px 0 0; text-align: center; white-space: pre-line; }
+
+@media (max-width: 520px) {
+  .stage { padding: 60px 16px 92px; }
+  .hbar { grid-template-columns: minmax(6rem, 8.5rem) 1fr auto; gap: 8px; }
+  .sticker { font-size: 1.02rem; box-shadow: 5px 5px 0 var(--ink); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.001ms !important; animation-duration: 0.001ms !important; animation-delay: 0s !important; }
+}

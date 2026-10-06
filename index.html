@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Kelsey Wrapped</title>
+    <meta name="description" content="A year of protein shakes, leg curls and spite, read out of a gym log and a food diary and roasted one card at a time." />
+    <meta name="theme-color" content="#FFFCF7" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Dela+Gothic+One&family=Familjen+Grotesk:wght@400;600;700&display=swap" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body data-bg="paper">
+    <a class="skip" href="#receipt-list">Skip to the full list</a>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+
+    <header class="top">
+      <span id="chapter"></span>
+      <a class="home" href="https://kelcamer.github.io/SpecialInterests/">Special Interests</a>
+    </header>
+
+    <main id="stage" class="stage" aria-live="polite" tabindex="-1"></main>
+
+    <nav class="nav" aria-label="Cards">
+      <button type="button" id="prev">Back</button>
+      <span id="count" class="count"></span>
+      <button type="button" id="next">Next</button>
+    </nav>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
